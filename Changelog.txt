@@ -1,0 +1,6 @@
+My Nes Version 7.9.7810.42663
+Built at Thursday 20 May 2021 23:42
+-------------
+
+- Fixed: black image when taking snapshot/saving state snap.
+- Improved: MY Nes generally.

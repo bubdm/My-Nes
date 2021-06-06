@@ -1,0 +1,1386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Status0" xml:space="preserve">
+    <value>Getting entries for selected platform</value>
+    <comment>Getting entries for selected platform</comment>
+  </data>
+  <data name="CoreMessage_Info3" xml:space="preserve">
+    <value>Snapshot saved</value>
+  </data>
+  <data name="I11" xml:space="preserve">
+    <value>Has Trainer</value>
+    <comment>Has Trainer</comment>
+  </data>
+  <data name="Desc15" xml:space="preserve">
+    <value>Load state as</value>
+    <comment>Load state as</comment>
+  </data>
+  <data name="SLOT" xml:space="preserve">
+    <value>SLOT</value>
+    <comment>SLOT</comment>
+  </data>
+  <data name="SDL2SettingsWarning" xml:space="preserve">
+    <value>WARNING!
+My Nes may fail to launch after changing the driver setting.
+If that happens, you need to locate the settings file in:
+Documents&gt;MyNes&gt;sdlsettings.ini, either delete the file, or modify this line in that settings file:
+
+"Video_Driver=opengl" or "Video_Driver=direct3d" then try again.
+direct3d: is the direct3d driver
+opengl: is the opengl driver</value>
+  </data>
+  <data name="Message25" xml:space="preserve">
+    <value>Are you sure ?</value>
+    <comment>Are you sure ?</comment>
+  </data>
+  <data name="Status50" xml:space="preserve">
+    <value>Sound Filters Enabled</value>
+    <comment>Sound Filters Enabled</comment>
+  </data>
+  <data name="Message34" xml:space="preserve">
+    <value>Palette file already exists, would you like to replace the palette file ?</value>
+    <comment>Palette file already exists, would you like to replace the palette file ?</comment>
+  </data>
+  <data name="Filter_Rom" xml:space="preserve">
+    <value>Supported file types (*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz|INES (*.nes)|*.nes|Archive (*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz</value>
+    <comment>Supported file types (*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz|INES (*.nes)|*.nes|Archive (*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz</comment>
+  </data>
+  <data name="Status53" xml:space="preserve">
+    <value>My Nes sound mixer disabled (using default nes mixer, as in wiki)</value>
+    <comment>My Nes sound mixer disabled (using default nes mixer, as in wiki)</comment>
+  </data>
+  <data name="Status42" xml:space="preserve">
+    <value>4 Players now connected.</value>
+    <comment>4 Players now connected.</comment>
+  </data>
+  <data name="Status32" xml:space="preserve">
+    <value>Entry ADDED</value>
+    <comment>Entry ADDED</comment>
+  </data>
+  <data name="Message19" xml:space="preserve">
+    <value>Save-RAMs folder is not exist !!</value>
+    <comment>Save-RAMs folder is not exist !!</comment>
+  </data>
+  <data name="Message43" xml:space="preserve">
+    <value>Game File Not Exist Or No File Assigned To This Game Yet</value>
+    <comment>Game File Not Exist Or No File Assigned To This Game Yet</comment>
+  </data>
+  <data name="IssueMapper222" xml:space="preserve">
+    <value>Mapper 222 is not tested, issues may occur</value>
+    <comment>Mapper 222 is not tested, issues may occur</comment>
+  </data>
+  <data name="Message52" xml:space="preserve">
+    <value>Please select the input device first.</value>
+    <comment>Please select the input device first.</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MessageIcon_Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop_designaxl_suite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S13" xml:space="preserve">
+    <value>Smaller</value>
+    <comment>Smaller</comment>
+  </data>
+  <data name="IssueMapper85" xml:space="preserve">
+    <value>VRC7 sound channels are not supported</value>
+    <comment>VRC7 sound channels are not supported</comment>
+  </data>
+  <data name="Status27" xml:space="preserve">
+    <value>files found</value>
+    <comment>files found</comment>
+  </data>
+  <data name="I10" xml:space="preserve">
+    <value>Has Battery</value>
+    <comment>Has Battery</comment>
+  </data>
+  <data name="database_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IssueMapper180" xml:space="preserve">
+    <value>Crazy Climber needs special controller which not implemented yet</value>
+    <comment>Crazy Climber needs special controller which not implemented yet</comment>
+  </data>
+  <data name="IssueMapper255" xml:space="preserve">
+    <value>Mapper 255 is not tested, issues may occur</value>
+    <comment>Mapper 255 is not tested, issues may occur</comment>
+  </data>
+  <data name="Button1" xml:space="preserve">
+    <value>&amp;Load</value>
+    <comment>&amp;Load</comment>
+  </data>
+  <data name="IssueMapper44" xml:space="preserve">
+    <value>In game Super Big 7 - in - 1 : Double Dragon 3 game does not work.</value>
+    <comment>In game Super Big 7 - in - 1 : Double Dragon 3 game does not work.</comment>
+  </data>
+  <data name="IssueMapper33" xml:space="preserve">
+    <value>Mapper 33: Akira is not working for unknown reason.</value>
+    <comment>Mapper 33: Akira is not working for unknown reason.</comment>
+  </data>
+  <data name="Filter_Palette" xml:space="preserve">
+    <value>Palette file '64 indexes' (*.pal)|*.pal|Palette file '512 indexes' (*.pal)|*.pal</value>
+    <comment>Palette file '64 indexes' (*.pal)|*.pal|Palette file '512 indexes' (*.pal)|*.pal</comment>
+  </data>
+  <data name="CoreMessage_Error16" xml:space="preserve">
+    <value>Game Genie code length cannot be more than 8 letters</value>
+  </data>
+  <data name="Status9" xml:space="preserve">
+    <value>Detecting</value>
+    <comment>Detecting</comment>
+  </data>
+  <data name="Status34" xml:space="preserve">
+    <value>is archive but can't be opened.</value>
+    <comment>is archive but can't be opened.</comment>
+  </data>
+  <data name="filter_point" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter_point.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message17" xml:space="preserve">
+    <value>Snapshots folder is not exist !!</value>
+    <comment>Snapshots folder is not exist !!</comment>
+  </data>
+  <data name="Status31" xml:space="preserve">
+    <value>Entry Skipped</value>
+    <comment>Entry Skipped</comment>
+  </data>
+  <data name="Status13" xml:space="preserve">
+    <value>Canceling in</value>
+    <comment>Canceling in</comment>
+  </data>
+  <data name="Name3" xml:space="preserve">
+    <value>X Controller Player Three</value>
+    <comment>X Controller Player Three</comment>
+  </data>
+  <data name="Button0" xml:space="preserve">
+    <value>&amp;Save</value>
+    <comment>&amp;Save</comment>
+  </data>
+  <data name="CoreMessage_Error5" xml:space="preserve">
+    <value>Can't load state, emu is off.</value>
+  </data>
+  <data name="I15" xml:space="preserve">
+    <value>File Info</value>
+    <comment>File Info</comment>
+  </data>
+  <data name="Message5" xml:space="preserve">
+    <value>Are you sure you want to stop current proccess ?</value>
+    <comment>Are you sure you want to stop current proccess ?</comment>
+  </data>
+  <data name="database_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I18" xml:space="preserve">
+    <value>Cartridge</value>
+    <comment>Cartridge</comment>
+  </data>
+  <data name="Status7" xml:space="preserve">
+    <value>Saving file at</value>
+    <comment>Saving file at</comment>
+  </data>
+  <data name="IssueMapper119" xml:space="preserve">
+    <value>Mapper 119 does not function probably</value>
+    <comment>Mapper 119 does not function probably</comment>
+  </data>
+  <data name="Status19" xml:space="preserve">
+    <value>GameGenie Disconnected</value>
+    <comment>GameGenie Disconnected</comment>
+  </data>
+  <data name="ErrorStatus" xml:space="preserve">
+    <value>ERROR</value>
+    <comment>ERROR</comment>
+  </data>
+  <data name="Name2" xml:space="preserve">
+    <value>X Controller Player Two</value>
+    <comment>X Controller Player Two</comment>
+  </data>
+  <data name="control_repeat_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_repeat_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message23" xml:space="preserve">
+    <value>Code already exist in the list</value>
+    <comment>Code already exist in the list</comment>
+  </data>
+  <data name="Message32" xml:space="preserve">
+    <value>Unable To Load Palette File</value>
+    <comment>Unable To Load Palette File</comment>
+  </data>
+  <data name="CoreMessage_SoftReset" xml:space="preserve">
+    <value>SOFT RESET !</value>
+  </data>
+  <data name="GettingStartedNotes" xml:space="preserve">
+    <value>NOTES:
+
+These are the default configurations by default:
+
+- If a Xbox Controller is connected, it will be assigned automatically: X Controller player 1 for nes player 1, player 2 for nes player 2... player 4 for nes player 4.
+
+- If a controller is assigned, then it is disconnected, My Nes will automatically switch back into keyboard.
+
+- When you use the launcher to launch a game, then you want the launcher to return, press F1/Escape to shutdown the emulation. This should bring up the launcher dialog back.</value>
+    <comment>NOTES:
+
+These are the default configurations by default:
+
+- If a Xbox Controller is connected, it will be assigned automatically: X Controller player 1 for nes player 1, player 2 for nes player 2... player 4 for nes player 4.
+
+- If a controller is assigned, then it is disconnected, My Nes will automatically switch back into keyboard.
+
+- When you use the launcher to launch a game, then you want the launcher to return, press F1/Escape to shutdown the emulation. This should bring up the launcher dialog back.</comment>
+  </data>
+  <data name="Message45" xml:space="preserve">
+    <value>No Entry Selected To Delete</value>
+    <comment>No Entry Selected To Delete</comment>
+  </data>
+  <data name="CoreMessage_Error17" xml:space="preserve">
+    <value>has issues and may not function probably with this game.</value>
+  </data>
+  <data name="IssueMapper6" xml:space="preserve">
+    <value>Mapper 6 is not tested, issues may occur</value>
+    <comment>Mapper 6 is not tested, issues may occur</comment>
+  </data>
+  <data name="wrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message1" xml:space="preserve">
+    <value>Log file saved to</value>
+    <comment>Log file saved to</comment>
+  </data>
+  <data name="Name4" xml:space="preserve">
+    <value>X Controller Player Four</value>
+    <comment>X Controller Player Four</comment>
+  </data>
+  <data name="MyNesImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyNesImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GettingStartedDesc" xml:space="preserve">
+    <value>Both renderers, SlimdDX and SDL2 Produce the best video/sound quality possible with My Nes, each renderer is carefully configured for best quality and performance.
+
+* Slimdx renderers render using Direct3d9 for video and DirectSound for sound.
+
+- Sometimes the video drops into 30 fps even though there is no game loaded, this is a windows related issue. Restarting My Nes may fix this problem, but If it remains, there is no choice but to switch into SDL2 Video.
+
+- Sometimes SlimDX video renderer makes My Nes craches. Sorry for this bug, still have no idea what's the problem excatly... still working on fixing it though, all you need to do is to restart My Nes and try again to run the game.
+
+- Video renderer run slow on low-end pcs and laptops. After tests, it needs at least 2400 Hz cpu to function probably. The fps drop will be something like latency issues, sound corruption, fps unstability... etc.
+
+* SDL2 renderers render using SDL2 library. The video renderer can be set to direct3d or opengl driver.
+
+- Run with no speed issues on low-end pcs and laptops.
+
+- No issues found in these renderer except sometimes sound glitches but it's so little that should not be bothering.
+
+There is no big difference between these renderers, since renderers in fact just act as outputs presenters. The only difference you may notice is with performance, you need to carefully choose and configure My Nes to run smoothly in your machine.
+
+Also you can mix renderers, for example, you can use SlimDX for video and SDL2 for sound... Renderers can be switched anytime from the main menu, note that changing a renderer requires My Nes to restart to take effect.
+
+As default, My Nes is set to use  SlimDX for video (Direct3d9) and sound (DirectSound) rendering. After tests, this is the best you can get from My Nes. As above, you need to carefully choose and configure My Nes to run smoothly in your machine. For most machines i test, SDL2 for video and SlimDX (DirectSound) for sound is the best choice for both quality and performance.
+
+WARNING!
+
+My Nes may fail to launch with SDL2 video renderer.
+If that happens, you need to locate the settings file in:
+
+Documents&gt;MyNes&gt;sdlsettings.ini
+
+Open that file then edit the line:
+"Video_Driver=opengl" or "Video_Driver=direct3d" then try again.
+direct3d: is the direct3d driver
+opengl: is the opengl driver
+
+If both drivers doesn't work, there is no choice but to switch into SlimDX video renderer.</value>
+    <comment>Both renderers, SlimdDX and SDL2 Produce the best video/sound quality possible with My Nes, each renderer is carefully configured for best quality and performance.
+
+* Slimdx renderers render using Direct3d9 for video and DirectSound for sound.
+
+- Sometimes the video drops into 30 fps even though there is no game loaded, this is a windows related issue. Restarting My Nes may fix this problem, but If it remains, there is no choice but to switch into SDL2 Video.
+
+- Sometimes SlimDX video renderer makes My Nes craches. Sorry for this bug, still have no idea what's the problem excatly... still working on fixing it though, all you need to do is to restart My Nes and try again to run the game.
+
+- Video renderer run slow on low-end pcs and laptops. After tests, it needs at least 2400 Hz cpu to function probably. The fps drop will be something like latency issues, sound corruption, fps unstability... etc.
+
+* SDL2 renderers render using SDL2 library. The video renderer can be set to direct3d or opengl driver.
+
+- Run with no speed issues on low-end pcs and laptops.
+
+- No issues found in these renderer except sometimes sound glitches but it's so little that should not bother.
+
+There is no big difference between these renderers, since renderers in fact just act as outputs presenters. The only difference you may notice is with performance, you need to carefully choose and configure My Nes to run smoothly in your machine.
+
+Also you can mix renderers, for example, you can use SlimDX for video and SDL2 for sound... Renderers can be switched anytime from the main menu, note that changing a renderer requires My Nes to restart to take effect.
+
+As default, My Nes is set to use  SlimDX for video (Direct3d9) and sound (DirectSound) rendering. After tests, this is the best you can get from My Nes. As above, you need to carefully choose and configure My Nes to run smoothly in your machine. For most machines i test, SDL2 for video and SlimDX (DirectSound) for sound is the best choice for both quality and performance.
+
+WARNING!
+
+My Nes may fail to launch with SDL2 video renderer.
+If that happens, you need to locate the settings file in:
+
+Documents&gt;MyNes&gt;sdlsettings.ini
+
+Open that file then edit the line:
+"Video_Driver=opengl" or "Video_Driver=direct3d" then try again.
+direct3d: is the direct3d driver
+opengl: is the opengl driver
+
+If both drivers doesn't work, there is no choice but to switch into SlimDX video renderer.</comment>
+  </data>
+  <data name="Text2" xml:space="preserve">
+    <value>Times</value>
+    <comment>Times</comment>
+  </data>
+  <data name="Desc3" xml:space="preserve">
+    <value>Detect Snapshots</value>
+    <comment>Detect Snapshots</comment>
+  </data>
+  <data name="star_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message11" xml:space="preserve">
+    <value>The folder for Overview is not exist</value>
+    <comment>The folder for Overview is not exist</comment>
+  </data>
+  <data name="IssueMapper202" xml:space="preserve">
+    <value>150 in 1: some games not work well. Is it mapper or rom dump ?</value>
+    <comment>150 in 1: some games not work well. Is it mapper or rom dump ?</comment>
+  </data>
+  <data name="INES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\INES.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageCap6" xml:space="preserve">
+    <value>Create New Database</value>
+    <comment>Create New Database</comment>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IssueMapper60" xml:space="preserve">
+    <value>Mapper 60 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</value>
+    <comment>Mapper 60 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</comment>
+  </data>
+  <data name="status10" xml:space="preserve">
+    <value>Detected</value>
+    <comment>Detected</comment>
+  </data>
+  <data name="Status40" xml:space="preserve">
+    <value>Snapshot taken.</value>
+    <comment>Snapshot taken.</comment>
+  </data>
+  <data name="Button3" xml:space="preserve">
+    <value>Dont Delete</value>
+    <comment>Dont Delete</comment>
+  </data>
+  <data name="Message27" xml:space="preserve">
+    <value>There is no code in the list</value>
+    <comment>There is no code in the list</comment>
+  </data>
+  <data name="folder_page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message36" xml:space="preserve">
+    <value>My Nes needs to be restarted in order to renderer change take effect.</value>
+    <comment>My Nes needs to be restarted in order to renderer change take effect.</comment>
+  </data>
+  <data name="IssueMapper154" xml:space="preserve">
+    <value>Game shows glitches with chr</value>
+    <comment>Game shows glitches with chr</comment>
+  </data>
+  <data name="Status51" xml:space="preserve">
+    <value>Sound Filters Disabled</value>
+    <comment>Sound Filters Disabled</comment>
+  </data>
+  <data name="Desc5" xml:space="preserve">
+    <value>Detect Info Files</value>
+    <comment>Detect Info Files</comment>
+  </data>
+  <data name="CoreMessage_Paused" xml:space="preserve">
+    <value>PAUSED</value>
+  </data>
+  <data name="Message41" xml:space="preserve">
+    <value>Are You Sure You Want To Create New DB</value>
+    <comment>Are You Sure You Want To Create New DB</comment>
+  </data>
+  <data name="control_repeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_repeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageCap8" xml:space="preserve">
+    <value>Remove Image</value>
+    <comment>Remove Image</comment>
+  </data>
+  <data name="IssueMapper193" xml:space="preserve">
+    <value>Game show nothing but fighter sprite !</value>
+    <comment>Game show nothing but fighter sprite !</comment>
+  </data>
+  <data name="IssueMapper105" xml:space="preserve">
+    <value>Game hangs on title screen !</value>
+    <comment>Game hangs on title screen !</comment>
+  </data>
+  <data name="I0" xml:space="preserve">
+    <value>Property</value>
+    <comment>Property</comment>
+  </data>
+  <data name="CoreMessage_TurboCanBeToggledOnly" xml:space="preserve">
+    <value>Turbo can be toggled only when emulation is on (i.e. game is loaded)</value>
+  </data>
+  <data name="information_cameleonhelp_divers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\information_cameleonhelp_divers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filter_State" xml:space="preserve">
+    <value>My Nes State (*.mns)|*.mns</value>
+    <comment>My Nes State (*.mns)|*.mns</comment>
+  </data>
+  <data name="Desc11" xml:space="preserve">
+    <value>Open Rom</value>
+    <comment>Open Rom</comment>
+  </data>
+  <data name="S5" xml:space="preserve">
+    <value>Start With</value>
+    <comment>Start With</comment>
+  </data>
+  <data name="Status3" xml:space="preserve">
+    <value>Applying Database</value>
+    <comment>Applying Database</comment>
+  </data>
+  <data name="Message26" xml:space="preserve">
+    <value>No code in the list to save!</value>
+    <comment>No code in the list to save!</comment>
+  </data>
+  <data name="Message37" xml:space="preserve">
+    <value>Another operation is in progress</value>
+    <comment>Another operation is in progress</comment>
+  </data>
+  <data name="Message16" xml:space="preserve">
+    <value>Game Genie Codes folder is not exist !!</value>
+    <comment>Game Genie Codes folder is not exist !!</comment>
+  </data>
+  <data name="Message15" xml:space="preserve">
+    <value>No extension added yet</value>
+    <comment>No extension added yet</comment>
+  </data>
+  <data name="Status33" xml:space="preserve">
+    <value>File</value>
+    <comment>File</comment>
+  </data>
+  <data name="Status22" xml:space="preserve">
+    <value>Updating Database</value>
+    <comment>Updating Database</comment>
+  </data>
+  <data name="Status11" xml:space="preserve">
+    <value>Downloading</value>
+    <comment>Downloading</comment>
+  </data>
+  <data name="Message51" xml:space="preserve">
+    <value>Are You Sure To Remove All Images</value>
+    <comment>Are You Sure To Remove All Images</comment>
+  </data>
+  <data name="arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_Error7" xml:space="preserve">
+    <value>Can't load state while saving a state !</value>
+  </data>
+  <data name="S3" xml:space="preserve">
+    <value>Is</value>
+    <comment>Is</comment>
+  </data>
+  <data name="star_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageCap2" xml:space="preserve">
+    <value>Detect</value>
+    <comment>Detect</comment>
+  </data>
+  <data name="Status8" xml:space="preserve">
+    <value>Database import operation finished at</value>
+    <comment>Database import operation finished at</comment>
+  </data>
+  <data name="Status35" xml:space="preserve">
+    <value>Updating Columns In The Database</value>
+    <comment>Updating Columns In The Database</comment>
+  </data>
+  <data name="Status24" xml:space="preserve">
+    <value>Generating Default Entries From NesCartDB</value>
+    <comment>Generating Default Entries From NesCartDB</comment>
+  </data>
+  <data name="Status17" xml:space="preserve">
+    <value>Region set to</value>
+    <comment>Region set to</comment>
+  </data>
+  <data name="note_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_Error1" xml:space="preserve">
+    <value>Can't save state, emu is off.</value>
+  </data>
+  <data name="I4" xml:space="preserve">
+    <value>Size</value>
+    <comment>Size</comment>
+  </data>
+  <data name="Message9" xml:space="preserve">
+    <value>The folder for BoxartFront is not exist</value>
+    <comment>The folder for BoxartFront is not exist</comment>
+  </data>
+  <data name="database_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageIcon_Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MessageIcon_Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_Error4" xml:space="preserve">
+    <value>Already saving state !!</value>
+  </data>
+  <data name="I14" xml:space="preserve">
+    <value>Mirroring</value>
+    <comment>Mirroring</comment>
+  </data>
+  <data name="S1" xml:space="preserve">
+    <value>Contains</value>
+    <comment>Contains</comment>
+  </data>
+  <data name="Status44" xml:space="preserve">
+    <value>Full screen mode, press ESCAPE to switch back into windowed mode.</value>
+    <comment>Full screen mode, press ESCAPE to switch back into windowed mode.</comment>
+  </data>
+  <data name="joystick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joystick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IssueMapper58" xml:space="preserve">
+    <value>Study and Game 32-in-1 (Ch) [!].nes needs keyboard ?</value>
+    <comment>Study and Game 32-in-1 (Ch) [!].nes needs keyboard ?</comment>
+  </data>
+  <data name="Status6" xml:space="preserve">
+    <value>XXX Unable to download file from</value>
+    <comment>XXX Unable to download file from</comment>
+  </data>
+  <data name="Message21" xml:space="preserve">
+    <value>Nes is off</value>
+    <comment>Nes is off</comment>
+  </data>
+  <data name="Filter_Database" xml:space="preserve">
+    <value>My Nes Database (*.mndb)|*.mndb</value>
+    <comment>My Nes Database (*.mndb)|*.mndb</comment>
+  </data>
+  <data name="Status25" xml:space="preserve">
+    <value>Calculating Files</value>
+    <comment>Calculating Files</comment>
+  </data>
+  <data name="Status16" xml:space="preserve">
+    <value>No data found for this game in this slot.</value>
+    <comment>No data found for this game in this slot.</comment>
+  </data>
+  <data name="Status28" xml:space="preserve">
+    <value>Loading entries from the database</value>
+    <comment>Loading entries from the database</comment>
+  </data>
+  <data name="Message8" xml:space="preserve">
+    <value>The folder for BoxartBack is not exist</value>
+    <comment>The folder for BoxartBack is not exist</comment>
+  </data>
+  <data name="Message30" xml:space="preserve">
+    <value>Please enter the search word first</value>
+    <comment>Please enter the search word first</comment>
+  </data>
+  <data name="IssueMapper243" xml:space="preserve">
+    <value>Shows glitches in some games.</value>
+    <comment>Shows glitches in some games.</comment>
+  </data>
+  <data name="star_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message49" xml:space="preserve">
+    <value>Remove File From Disk Too</value>
+    <comment>Remove File From Disk Too</comment>
+  </data>
+  <data name="IssueMapper228" xml:space="preserve">
+    <value>Mapper 228 does not function probably</value>
+    <comment>Mapper 228 does not function probably</comment>
+  </data>
+  <data name="Status41" xml:space="preserve">
+    <value>Recording Audio</value>
+    <comment>Recording Audio</comment>
+  </data>
+  <data name="arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IssueMapper5" xml:space="preserve">
+    <value>Split screen not implemented.\nUchuu Keibitai SDF game graphic corruption for unknown reason in the intro (not in the split screen).</value>
+    <comment>Split screen not implemented.\nUchuu Keibitai SDF game graphic corruption for unknown reason in the intro (not in the split screen).</comment>
+  </data>
+  <data name="Status23" xml:space="preserve">
+    <value>Default Entries From NesCartDB Generated Successfully</value>
+    <comment>Default Entries From NesCartDB Generated Successfully</comment>
+  </data>
+  <data name="CoreMessage_Info4" xml:space="preserve">
+    <value>Interface language set to</value>
+  </data>
+  <data name="Button5" xml:space="preserve">
+    <value>Stop Recording Sound</value>
+    <comment>Stop Recording Sound</comment>
+  </data>
+  <data name="SortAlpha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SortAlpha.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status46" xml:space="preserve">
+    <value>board(s) supported.</value>
+    <comment>board(s) supported.</comment>
+  </data>
+  <data name="MessageIcon_Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\danger_cameleonhelp_divers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desc2" xml:space="preserve">
+    <value>Please select a master folder where to save the downloaded files (empty folder is recommended)</value>
+    <comment>Please select a master folder where to save the downloaded files (empty folder is recommended)</comment>
+  </data>
+  <data name="CoreMessage_LoadStateCanBeUsedOnly" xml:space="preserve">
+    <value>Load state as can be used only when emulation is on (i.e. game is loaded)</value>
+  </data>
+  <data name="Message48" xml:space="preserve">
+    <value>Are You Sure To Remove Image</value>
+    <comment>Are You Sure To Remove Image</comment>
+  </data>
+  <data name="IssueMapper203" xml:space="preserve">
+    <value>64-in-1: some games not work, maybe something wrong with the implementation or the rom itself</value>
+    <comment>64-in-1: some games not work, maybe something wrong with the implementation or the rom itself</comment>
+  </data>
+  <data name="IssueMapper229" xml:space="preserve">
+    <value>Mapper 229 is not tested, issues may occur</value>
+    <comment>Mapper 229 is not tested, issues may occur</comment>
+  </data>
+  <data name="MessageCap1" xml:space="preserve">
+    <value>Detect And Download From The Games DB</value>
+    <comment>Detect And Download From The Games DB</comment>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I12" xml:space="preserve">
+    <value>Is Playchoice10</value>
+    <comment>Is Playchoice10</comment>
+  </data>
+  <data name="Button4" xml:space="preserve">
+    <value>Dont Delete Nes Cart Entries</value>
+    <comment>Dont Delete Nes Cart Entries</comment>
+  </data>
+  <data name="Message28" xml:space="preserve">
+    <value>Please enter the game title first.</value>
+    <comment>Please enter the game title first.</comment>
+  </data>
+  <data name="page_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message39" xml:space="preserve">
+    <value>Please Select One Game To Play</value>
+    <comment>Please Select One Game To Play</comment>
+  </data>
+  <data name="Desc4" xml:space="preserve">
+    <value>Detect Covers</value>
+    <comment>Detect Covers</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S11" xml:space="preserve">
+    <value>Larger</value>
+    <comment>Larger</comment>
+  </data>
+  <data name="control_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desc12" xml:space="preserve">
+    <value>Add More Images</value>
+    <comment>Add More Images</comment>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I13" xml:space="preserve">
+    <value>Is VS-Unisystem</value>
+    <comment>Is VS-Unisystem</comment>
+  </data>
+  <data name="S4" xml:space="preserve">
+    <value>Is Not</value>
+    <comment>Is Not</comment>
+  </data>
+  <data name="Message50" xml:space="preserve">
+    <value>Unable To Remove File</value>
+    <comment>Unable To Remove File</comment>
+  </data>
+  <data name="Status37" xml:space="preserve">
+    <value>Deleting Entries</value>
+    <comment>Deleting Entries</comment>
+  </data>
+  <data name="IssueMapper207" xml:space="preserve">
+    <value>Fudou Myouou Den is not assigned as mapper 207 while it should be !</value>
+    <comment>Fudou Myouou Den is not assigned as mapper 207 while it should be !</comment>
+  </data>
+  <data name="Message44" xml:space="preserve">
+    <value>Please Select One Game To Show Info Of</value>
+    <comment>Please Select One Game To Show Info Of</comment>
+  </data>
+  <data name="I6" xml:space="preserve">
+    <value>CHR Count</value>
+    <comment>CHR Count</comment>
+  </data>
+  <data name="Filter_Image" xml:space="preserve">
+    <value>Image (*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga)|*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga</value>
+    <comment>Image (*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga)|*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga</comment>
+  </data>
+  <data name="CoreMessage_Error6" xml:space="preserve">
+    <value>Can't load state, no rom file is loaded.</value>
+  </data>
+  <data name="I16" xml:space="preserve">
+    <value>Game Info From NesCart Database</value>
+    <comment>Game Info From NesCart Database</comment>
+  </data>
+  <data name="I2" xml:space="preserve">
+    <value>INES Header</value>
+    <comment>INES Header</comment>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+    <comment>Done</comment>
+  </data>
+  <data name="arrow_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IssueMapper56" xml:space="preserve">
+    <value>Mapper 56 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</value>
+    <comment>Mapper 56 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</comment>
+  </data>
+  <data name="Status4" xml:space="preserve">
+    <value>Finishing</value>
+    <comment>Finishing</comment>
+  </data>
+  <data name="Status39" xml:space="preserve">
+    <value>UNABLE TO SHOW IMAGE</value>
+    <comment>UNABLE TO SHOW IMAGE</comment>
+  </data>
+  <data name="CoreMessage_SaveStateCanBeUseOnly" xml:space="preserve">
+    <value>Save state as can be used only when emulation is on (i.e. game is loaded)</value>
+  </data>
+  <data name="Status36" xml:space="preserve">
+    <value>Ready.</value>
+    <comment>Ready.</comment>
+  </data>
+  <data name="I8" xml:space="preserve">
+    <value>PRG Count</value>
+    <comment>PRG Count</comment>
+  </data>
+  <data name="CoreMessage_SoftResetCanBeUsedOnly" xml:space="preserve">
+    <value>Soft reset can be used only when emulation is on (i.e. game is loaded)</value>
+  </data>
+  <data name="Status14" xml:space="preserve">
+    <value>Last saved at</value>
+    <comment>Last saved at</comment>
+  </data>
+  <data name="I5" xml:space="preserve">
+    <value>Mapper Number</value>
+    <comment>Mapper Number</comment>
+  </data>
+  <data name="Message6" xml:space="preserve">
+    <value>Please select a Platform first</value>
+    <comment>Please select a Platform first</comment>
+  </data>
+  <data name="I17" xml:space="preserve">
+    <value>Game Info</value>
+    <comment>Game Info</comment>
+  </data>
+  <data name="Text0" xml:space="preserve">
+    <value>Never Played</value>
+    <comment>Never Played</comment>
+  </data>
+  <data name="database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_Error10" xml:space="preserve">
+    <value>Unable load state at slot</value>
+  </data>
+  <data name="paypal-donate-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paypal-donate-button.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status5" xml:space="preserve">
+    <value>Downloading file</value>
+    <comment>Downloading file</comment>
+  </data>
+  <data name="Status38" xml:space="preserve">
+    <value>No Game Selected</value>
+    <comment>No Game Selected</comment>
+  </data>
+  <data name="Status29" xml:space="preserve">
+    <value>Searching Files</value>
+    <comment>Searching Files</comment>
+  </data>
+  <data name="S14" xml:space="preserve">
+    <value>Equal OR Smaller</value>
+    <comment>Equal OR Smaller</comment>
+  </data>
+  <data name="Desc10" xml:space="preserve">
+    <value>Browse for Sound Records folder</value>
+    <comment>Browse for Sound Records folder</comment>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message20" xml:space="preserve">
+    <value>States folder is not exist !!</value>
+    <comment>States folder is not exist !!</comment>
+  </data>
+  <data name="Message31" xml:space="preserve">
+    <value>Please select the search by column first</value>
+    <comment>Please select the search by column first</comment>
+  </data>
+  <data name="Text1" xml:space="preserve">
+    <value>One Time</value>
+    <comment>One Time</comment>
+  </data>
+  <data name="star_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageIcon_Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3830-12566.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_HardReset" xml:space="preserve">
+    <value>HARD RESET !</value>
+  </data>
+  <data name="Message46" xml:space="preserve">
+    <value>Are You Sure You Want To Delete Selected Entries</value>
+    <comment>Are You Sure You Want To Delete Selected Entries</comment>
+  </data>
+  <data name="keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_Error12" xml:space="preserve">
+    <value>Not compatible state file version !</value>
+  </data>
+  <data name="MessageCap3" xml:space="preserve">
+    <value>GameGenie Code</value>
+    <comment>GameGenie Code</comment>
+  </data>
+  <data name="Status30" xml:space="preserve">
+    <value>Entry UPDATED</value>
+    <comment>Entry UPDATED</comment>
+  </data>
+  <data name="I1" xml:space="preserve">
+    <value>Value</value>
+    <comment>Value</comment>
+  </data>
+  <data name="Message2" xml:space="preserve">
+    <value>Do you want to open the log file ?</value>
+    <comment>Do you want to open the log file ?</comment>
+  </data>
+  <data name="filter_linear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter_linear.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button6" xml:space="preserve">
+    <value>Record Sound</value>
+    <comment>Record Sound</comment>
+  </data>
+  <data name="CoreMapper" xml:space="preserve">
+    <value>Mapper</value>
+  </data>
+  <data name="Message14" xml:space="preserve">
+    <value>No folder to search</value>
+    <comment>No folder to search</comment>
+  </data>
+  <data name="Status54" xml:space="preserve">
+    <value>State slot set to</value>
+    <comment>State slot set to</comment>
+  </data>
+  <data name="Desc6" xml:space="preserve">
+    <value>Browse for Snapshots folder</value>
+    <comment>Browse for Snapshots folder</comment>
+  </data>
+  <data name="Status45" xml:space="preserve">
+    <value>Total of</value>
+    <comment>Total of</comment>
+  </data>
+  <data name="CoreMessage_GameGenieCanBeConfiguredOnly" xml:space="preserve">
+    <value>Game Genie can be enabled/configured only when emulation is on (i.e. game is loaded)</value>
+  </data>
+  <data name="CoreMessage_Error14" xml:space="preserve">
+    <value>IS NOT LOCATED, mapper is not supported or unable to find it.</value>
+  </data>
+  <data name="MessageCap5" xml:space="preserve">
+    <value>Find Games</value>
+    <comment>Find Games</comment>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Seconds</value>
+    <comment>Seconds</comment>
+  </data>
+  <data name="accept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_Error11" xml:space="preserve">
+    <value>Not My Nes State File !</value>
+  </data>
+  <data name="Message0" xml:space="preserve">
+    <value>You must select one folder to search</value>
+    <comment>You must select one folder to search</comment>
+  </data>
+  <data name="CoreMessage_Info2" xml:space="preserve">
+    <value>State loaded from slot</value>
+  </data>
+  <data name="Desc14" xml:space="preserve">
+    <value>Save state as</value>
+    <comment>Save state as</comment>
+  </data>
+  <data name="Status20" xml:space="preserve">
+    <value>Volume</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="CoreMessage_StateSlotSetTo" xml:space="preserve">
+    <value>State slot set to</value>
+  </data>
+  <data name="Message24" xml:space="preserve">
+    <value>Enter Comment</value>
+    <comment>Enter Comment</comment>
+  </data>
+  <data name="S6" xml:space="preserve">
+    <value>Does Not Start With</value>
+    <comment>Does Not Start With</comment>
+  </data>
+  <data name="Message35" xml:space="preserve">
+    <value>Unable to open archive file</value>
+    <comment>Unable to open archive file</comment>
+  </data>
+  <data name="Status52" xml:space="preserve">
+    <value>My Nes sound mixer enabled</value>
+    <comment>My Nes sound mixer enabled</comment>
+  </data>
+  <data name="Desc8" xml:space="preserve">
+    <value>Browse for Save-RAMs folder</value>
+    <comment>Browse for Save-RAMs folder</comment>
+  </data>
+  <data name="Status43" xml:space="preserve">
+    <value>4 Players now disconnected.</value>
+    <comment>4 Players now disconnected.</comment>
+  </data>
+  <data name="Message29" xml:space="preserve">
+    <value>Please select one result first</value>
+    <comment>Please select one result first</comment>
+  </data>
+  <data name="Message38" xml:space="preserve">
+    <value>No Database loaded yet</value>
+    <comment>No Database loaded yet</comment>
+  </data>
+  <data name="desc7" xml:space="preserve">
+    <value>Browse for States folder</value>
+    <comment>Browse for States folder</comment>
+  </data>
+  <data name="Message42" xml:space="preserve">
+    <value>Please Select One Game To Open Location</value>
+    <comment>Please Select One Game To Open Location</comment>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message53" xml:space="preserve">
+    <value>The selected interface language will be applied next time you start My Nes.</value>
+    <comment>The selected interface language will be applied next time you start My Nes.</comment>
+  </data>
+  <data name="control_eject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_eject.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S12" xml:space="preserve">
+    <value>Euqal OR Larger</value>
+    <comment>Euqal OR Larger</comment>
+  </data>
+  <data name="IssueMapper191" xml:space="preserve">
+    <value>Mapper 191 is not tested, issues may occur</value>
+    <comment>Mapper 191 is not tested, issues may occur</comment>
+  </data>
+  <data name="CoreMessage_Error8" xml:space="preserve">
+    <value>Already loading state !!</value>
+  </data>
+  <data name="CoreMessage_Info1" xml:space="preserve">
+    <value>State saved at slot</value>
+  </data>
+  <data name="IssueMapper8" xml:space="preserve">
+    <value>Mapper 8 is not tested, issues may occur</value>
+    <comment>Mapper 8 is not tested, issues may occur</comment>
+  </data>
+  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IssueMapper245" xml:space="preserve">
+    <value>Graphic glitches, maybe chr switches.</value>
+    <comment>Graphic glitches, maybe chr switches.</comment>
+  </data>
+  <data name="Desc13" xml:space="preserve">
+    <value>Choose Where To Download The Files</value>
+    <comment>Choose Where To Download The Files</comment>
+  </data>
+  <data name="S8" xml:space="preserve">
+    <value>Does Not End With</value>
+    <comment>Does Not End With</comment>
+  </data>
+  <data name="application_view_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_view_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DBTables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DBTables.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CoreMessage_PleaseRestartToApply" xml:space="preserve">
+    <value>Please restart My Nes to apply.</value>
+  </data>
+  <data name="S7" xml:space="preserve">
+    <value>Ends With</value>
+    <comment>Ends With</comment>
+  </data>
+  <data name="IssueMapper230" xml:space="preserve">
+    <value>Only Contra works !?</value>
+    <comment>Only Contra works !?</comment>
+  </data>
+  <data name="Message40" xml:space="preserve">
+    <value>Game File Not Exist Or No File Assigned To This Game Yet</value>
+    <comment>Game File Not Exist Or No File Assigned To This Game Yet</comment>
+  </data>
+  <data name="Desc9" xml:space="preserve">
+    <value>Browse for Game Genie Codes folder</value>
+    <comment>Browse for Game Genie Codes folder</comment>
+  </data>
+  <data name="control_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I9" xml:space="preserve">
+    <value>PRG Size</value>
+    <comment>PRG Size</comment>
+  </data>
+  <data name="Status21" xml:space="preserve">
+    <value>Adding Entries</value>
+    <comment>Adding Entries</comment>
+  </data>
+  <data name="Status12" xml:space="preserve">
+    <value>Press key for</value>
+    <comment>Press key for</comment>
+  </data>
+  <data name="CoreMessage_Error2" xml:space="preserve">
+    <value>Can't save state, no rom file is loaded.</value>
+  </data>
+  <data name="I7" xml:space="preserve">
+    <value>CHR Size</value>
+    <comment>CHR Size</comment>
+  </data>
+  <data name="Message4" xml:space="preserve">
+    <value>Coninue ?</value>
+    <comment>Coninue ?</comment>
+  </data>
+  <data name="IssueMapper96" xml:space="preserve">
+    <value>Mapper 96 does not function probably and needs special controller to be implemented.</value>
+    <comment>Mapper 96 does not function probably and needs special controller to be implemented.</comment>
+  </data>
+  <data name="CoreMessage_Error9" xml:space="preserve">
+    <value>No state found in slot</value>
+  </data>
+  <data name="I19" xml:space="preserve">
+    <value>DataBase</value>
+    <comment>DataBase</comment>
+  </data>
+  <data name="S2" xml:space="preserve">
+    <value>Does Not Contain</value>
+    <comment>Does Not Contain</comment>
+  </data>
+  <data name="S9" xml:space="preserve">
+    <value>Equal</value>
+    <comment>Equal</comment>
+  </data>
+  <data name="noneRating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noneRating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status18" xml:space="preserve">
+    <value>GameGenie Connected</value>
+    <comment>GameGenie Connected</comment>
+  </data>
+  <data name="CoreMessage_HardResetCanBeUsedOnly" xml:space="preserve">
+    <value>Hard reset can be used only when emulation is on (i.e. game is loaded)</value>
+  </data>
+  <data name="Status26" xml:space="preserve">
+    <value>Total Of</value>
+    <comment>Total Of</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+    <comment>No</comment>
+  </data>
+  <data name="Status15" xml:space="preserve">
+    <value>Unable to load state file info !!</value>
+    <comment>Unable to load state file info !!</comment>
+  </data>
+  <data name="Name1" xml:space="preserve">
+    <value>X Controller Player One</value>
+    <comment>X Controller Player One</comment>
+  </data>
+  <data name="CoreMessage_Error3" xml:space="preserve">
+    <value>Can't save state while loading a state !</value>
+  </data>
+  <data name="Message7" xml:space="preserve">
+    <value>The folder for Banners is not exist</value>
+    <comment>The folder for Banners is not exist</comment>
+  </data>
+  <data name="SortZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SortZ.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message22" xml:space="preserve">
+    <value>This file is not My Nes GameGenie Codes List file</value>
+    <comment>This file is not My Nes GameGenie Codes List file</comment>
+  </data>
+  <data name="Desc0" xml:space="preserve">
+    <value>Add folder to the scan list</value>
+    <comment>Add folder to the scan list</comment>
+  </data>
+  <data name="Message33" xml:space="preserve">
+    <value>Palette file not exist or selected</value>
+    <comment>Palette file not exist or selected</comment>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+    <comment>Version</comment>
+  </data>
+  <data name="database_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thegamedbicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the game db.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status1" xml:space="preserve">
+    <value>Collecting the roms</value>
+    <comment>Collecting the roms</comment>
+  </data>
+  <data name="MessageIcon_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erreur_cameleonhelp_divers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I3" xml:space="preserve">
+    <value>Path</value>
+    <comment>Path</comment>
+  </data>
+  <data name="information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IssueMapper53" xml:space="preserve">
+    <value>Mapper 53 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</value>
+    <comment>Mapper 53 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</comment>
+  </data>
+  <data name="Message10" xml:space="preserve">
+    <value>The folder for Fanart is not exist</value>
+    <comment>The folder for Fanart is not exist</comment>
+  </data>
+  <data name="star_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message12" xml:space="preserve">
+    <value>The folder for Screenshots is not exist</value>
+    <comment>The folder for Screenshots is not exist</comment>
+  </data>
+  <data name="MessageCap7" xml:space="preserve">
+    <value>Delete Entries</value>
+    <comment>Delete Entries</comment>
+  </data>
+  <data name="Message47" xml:space="preserve">
+    <value>Info Copied Into The Clipboard</value>
+    <comment>Info Copied Into The Clipboard</comment>
+  </data>
+  <data name="CoreMessage_Error13" xml:space="preserve">
+    <value>This state file is not for this game; not same SHA1 !</value>
+  </data>
+  <data name="Status2" xml:space="preserve">
+    <value>Comparing</value>
+    <comment>Comparing</comment>
+  </data>
+  <data name="IssueMapper90" xml:space="preserve">
+    <value>DipSwitch is not implemented, the irq modes 2-3 are not implemented yet.</value>
+    <comment>DipSwitch is not implemented, the irq modes 2-3 are not implemented yet.</comment>
+  </data>
+  <data name="S10" xml:space="preserve">
+    <value>Does Not Equal</value>
+    <comment>Does Not Equal</comment>
+  </data>
+  <data name="Desc16" xml:space="preserve">
+    <value>Add Files To The Database</value>
+    <comment>Add Files To The Database</comment>
+  </data>
+  <data name="cross_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_RomInfoCanBeOnlyShown" xml:space="preserve">
+    <value>Rom info can be shown only when emulation is on (i.e. game is loaded)</value>
+  </data>
+  <data name="Message3" xml:space="preserve">
+    <value>These folders will be created</value>
+    <comment>These folders will be created</comment>
+  </data>
+  <data name="Button2" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="server_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\server_database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desc1" xml:space="preserve">
+    <value>Save My Nes Database File</value>
+    <comment>Save My Nes Database File</comment>
+  </data>
+  <data name="Status55" xml:space="preserve">
+    <value>Volume</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="Message18" xml:space="preserve">
+    <value>Sound Records folder is not exist !!</value>
+    <comment>Sound Records folder is not exist !!</comment>
+  </data>
+  <data name="MessageCap9" xml:space="preserve">
+    <value>Change Interface Language</value>
+    <comment>Change Interface Language</comment>
+  </data>
+  <data name="Message13" xml:space="preserve">
+    <value>Are you sure you want to delete selected folders ?</value>
+    <comment>Are you sure you want to delete selected folders ?</comment>
+  </data>
+  <data name="sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MyNes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyNes.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoreMessage_Error15" xml:space="preserve">
+    <value>will be used instead, assigned successfully.</value>
+  </data>
+  <data name="MessageCap4" xml:space="preserve">
+    <value>Remove Code</value>
+    <comment>Remove Code</comment>
+  </data>
+  <data name="folder_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desc17" xml:space="preserve">
+    <value>Open My Nes Database File</value>
+  </data>
+  <data name="Filter_Text" xml:space="preserve">
+    <value>Text File (*.txt)|*.txt</value>
+  </data>
+</root>

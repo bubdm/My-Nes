@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{261408DB-307C-4E04-8264-18020A7A3BEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyNes</RootNamespace>
+    <AssemblyName>MyNes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\_Releases\x86\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\_Releases\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\_Releases\x86\</OutputPath>
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ContentSQLiteInteropFiles>true</ContentSQLiteInteropFiles>
+    <CopySQLiteInteropFiles>false</CopySQLiteInteropFiles>
+    <CleanSQLiteInteropFiles>false</CleanSQLiteInteropFiles>
+    <CollectSQLiteInteropFiles>false</CollectSQLiteInteropFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\MyNes.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp, Version=0.64.3890.29348, Culture=neutral, PublicKeyToken=20de82c62b055c88, processorArchitecture=MSIL">
+      <HintPath>..\packages\SevenZipSharp.0.64\lib\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86">
+      <HintPath>..\packages\SlimDX.4.0.13.44\lib\NET40\SlimDX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\lib\net40\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.113.0\lib\net40\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.113.0\lib\net40\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\TracerEventArgs.cs" />
+    <Compile Include="Attributes\BoardInfoAttribute.cs" />
+    <Compile Include="Attributes\HassIssuesAttribute.cs" />
+    <Compile Include="Attributes\WithExternalSoundAttribute.cs" />
+    <Compile Include="Boards\Bandai.cs" />
+    <Compile Include="Boards\Eprom.cs" />
+    <Compile Include="Boards\FFE.cs" />
+    <Compile Include="Boards\MMC2.cs" />
+    <Compile Include="Boards\Namcot106.cs" />
+    <Compile Include="ControlsSettings\ControlMappingSettings.cs" />
+    <Compile Include="ControlsSettings\IInputSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSettings\IInputSettingsJoypad.cs" />
+    <Compile Include="ControlsSettings\IInputSettingsVSUnisystemDIP.cs" />
+    <Compile Include="ControlsSettings\InputControls\InputControlJoypad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSettings\InputControls\InputControlJoypad.Designer.cs">
+      <DependentUpon>InputControlJoypad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Args\EnterNameFormOkPressedArgs.cs" />
+    <Compile Include="ControlsSettings\InputControls\InputControlShortcuts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSettings\InputSettingsShortcuts.cs" />
+    <Compile Include="Controls\GameInfoViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GameInfoViewer.Designer.cs">
+      <DependentUpon>GameInfoViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImagePanel\ImagePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ImagePanel\ImagePanel.Designer.cs">
+      <DependentUpon>ImagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImagePanel\ImagePanelEnums.cs" />
+    <Compile Include="Controls\ImagesViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImagesViewer.Designer.cs">
+      <DependentUpon>ImagesViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\InfoViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\InfoViewer.Designer.cs">
+      <DependentUpon>InfoViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MLV\Collections\ManagedListViewColumnsCollection.cs" />
+    <Compile Include="Controls\MLV\Collections\ManagedListViewItemsCollection.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewBackgroundRenderMode.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewColumnClickArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewColumnDrawArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewItemDoubleClickArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewItemDrawArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewItemDrawMode.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewItemsComparer.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewItemSelectArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewMouseOverSubItemArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewRatingChangedArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewShowThumbnailTooltipArgs.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewSortMode.cs" />
+    <Compile Include="Controls\MLV\Enums And Args\ManagedListViewSubItemDrawArgs.cs" />
+    <Compile Include="Controls\MLV\ManagedListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MLV\ManagedListView.Designer.cs">
+      <DependentUpon>ManagedListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MLV\ManagedListViewPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MLV\ManagedListViewPanel.Designer.cs">
+      <DependentUpon>ManagedListViewPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MLV\Types\IManagedListViewItem.cs" />
+    <Compile Include="Controls\MLV\Types\ManagedListViewColumn.cs" />
+    <Compile Include="Controls\MLV\Types\ManagedListViewItem.cs" />
+    <Compile Include="Controls\MLV\Types\ManagedListViewRatingSubItem.cs" />
+    <Compile Include="Controls\MLV\Types\ManagedListViewSubItem.cs" />
+    <Compile Include="Controls\MLV\Types\ManagedListViewViewMode.cs" />
+    <Compile Include="Controls\MMB\Forms\Form_ManagedMesssageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\MMB\Forms\Form_ManagedMesssageBox.designer.cs">
+      <DependentUpon>Form_ManagedMesssageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MMB\ManagedMessageBox.cs" />
+    <Compile Include="Controls\MMB\ManagedMessageBoxCustom.cs" />
+    <Compile Include="Controls\MMB\ManagedMessageBoxErrorMessage.cs" />
+    <Compile Include="Controls\MMB\ManagedMessageBoxInfoMessage.cs" />
+    <Compile Include="Controls\MMB\ManagedMessageBoxQuestionMessage.cs" />
+    <Compile Include="Controls\MMB\ManagedMessageBoxWarningMessage.cs" />
+    <Compile Include="Controls\MMB\Types\ManagedMessageBoxButtons.cs" />
+    <Compile Include="Controls\MMB\Types\ManagedMessageBoxIcon.cs" />
+    <Compile Include="Controls\MMB\Types\ManagedMessageBoxResult.cs" />
+    <Compile Include="Controls\Rating\Rating.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Rating\Rating.designer.cs">
+      <DependentUpon>Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Databases\NesCartDatabase.cs" />
+    <Compile Include="Databases\NesCartDatabaseGameInfo.cs" />
+    <Compile Include="Databases\SRAMBankInfo.cs" />
+    <Compile Include="Database\Crc32.cs" />
+    <Compile Include="Database\DateTimeFormater.cs" />
+    <Compile Include="Database\HelperTools.cs" />
+    <Compile Include="Database\MyNesDB.cs" />
+    <Compile Include="Database\MyNesDBColumn.cs" />
+    <Compile Include="Database\MyNesDBEntryInfo.cs" />
+    <Compile Include="Database\MyNesDetectEntryInfo.cs" />
+    <Compile Include="Settings\EmuSettings.cs" />
+    <Compile Include="Emu\NesEmu.Apu.cs" />
+    <Compile Include="Emu\NesEmu.Colors.cs" />
+    <Compile Include="Emu\NesEmu.Cpu.cs" />
+    <Compile Include="Emu\NesEmu.Dma.cs" />
+    <Compile Include="Emu\NesEmu.Interrupts.cs" />
+    <Compile Include="Emu\NesEmu.Memory.cs" />
+    <Compile Include="Emu\NesEmu.Ports.cs" />
+    <Compile Include="Emu\NesEmu.Ppu.cs" />
+    <Compile Include="Emu\NesEmu.Snd.DMC.cs" />
+    <Compile Include="Emu\NesEmu.Snd.Nos.cs" />
+    <Compile Include="Emu\NesEmu.Snd.Sq1.cs" />
+    <Compile Include="Emu\NesEmu.Snd.Sq2.cs" />
+    <Compile Include="Emu\NesEmu.Snd.Trl.cs" />
+    <Compile Include="Emu\StateHandler.cs" />
+    <Compile Include="Emu\_NesEmu.cs" />
+    <Compile Include="Enums\Areas.cs" />
+    <Compile Include="Enums\EmuRegion.cs" />
+    <Compile Include="Enums\Mirroring.cs" />
+    <Compile Include="Enums\PaletteSelectSetting.cs" />
+    <Compile Include="Enums\RegionSettings.cs" />
+    <Compile Include="Enums\TracerStatus.cs" />
+    <Compile Include="Forms\FormSDL2Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSDL2Settings.Designer.cs">
+      <DependentUpon>FormSDL2Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGettingStarted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGettingStarted.Designer.cs">
+      <DependentUpon>FormGettingStarted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAssignFilesToDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAssignFilesToDB.designer.cs">
+      <DependentUpon>FormAssignFilesToDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCreateDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCreateDatabase.designer.cs">
+      <DependentUpon>FormCreateDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDetectForDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDetectForDatabase.designer.cs">
+      <DependentUpon>FormDetectForDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDetectSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDetectSelection.designer.cs">
+      <DependentUpon>FormDetectSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFolders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFolders.Designer.cs">
+      <DependentUpon>FormFolders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEnterName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEnterName.designer.cs">
+      <DependentUpon>FormEnterName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGameGenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGameGenie.designer.cs">
+      <DependentUpon>FormGameGenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGeneratingDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGeneratingDatabase.designer.cs">
+      <DependentUpon>FormGeneratingDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormInputSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormInputSettings.designer.cs">
+      <DependentUpon>FormInputSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormKey.designer.cs">
+      <DependentUpon>FormKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLauncher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLauncher.designer.cs">
+      <DependentUpon>FormLauncher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRomInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRomInfo.designer.cs">
+      <DependentUpon>FormRomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSearchLauncher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSearchLauncher.designer.cs">
+      <DependentUpon>FormSearchLauncher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormStatesBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormStatesBrowser.Designer.cs">
+      <DependentUpon>FormStatesBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFilesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFilesList.designer.cs">
+      <DependentUpon>FormFilesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameGenie\GameGenie.cs" />
+    <Compile Include="GameGenie\GameGenieCode.cs" />
+    <Compile Include="Interfaces\Board.cs" />
+    <Compile Include="Interfaces\BoardInfoObject.cs" />
+    <Compile Include="Interfaces\IAudioProvider.cs" />
+    <Compile Include="Interfaces\IInputSettings.cs" />
+    <Compile Include="Interfaces\IJoypadConnecter.cs" />
+    <Compile Include="Interfaces\ISettings.cs" />
+    <Compile Include="Interfaces\IShortcutsHandler.cs" />
+    <Compile Include="Interfaces\IVideoProvider.cs" />
+    <Compile Include="Interfaces\IVSUnisystemDIPConnecter.cs" />
+    <Compile Include="Interfaces\IZapperConnecter.cs" />
+    <Compile Include="Mappers\Mapper000.cs" />
+    <Compile Include="Mappers\Mapper001.cs" />
+    <Compile Include="Mappers\Mapper002.cs" />
+    <Compile Include="Mappers\Mapper003.cs" />
+    <Compile Include="Mappers\Mapper004.cs" />
+    <Compile Include="Mappers\Mapper005.cs" />
+    <Compile Include="Mappers\Mapper006.cs" />
+    <Compile Include="Mappers\Mapper007.cs" />
+    <Compile Include="Mappers\Mapper008.cs" />
+    <Compile Include="Mappers\Mapper009.cs" />
+    <Compile Include="Mappers\Mapper010.cs" />
+    <Compile Include="Mappers\Mapper011.cs" />
+    <Compile Include="Mappers\Mapper013.cs" />
+    <Compile Include="Mappers\Mapper015.cs" />
+    <Compile Include="Mappers\Mapper016.cs" />
+    <Compile Include="Mappers\Mapper017.cs" />
+    <Compile Include="Mappers\Mapper018.cs" />
+    <Compile Include="Mappers\Mapper019.cs" />
+    <Compile Include="Mappers\Mapper021.cs" />
+    <Compile Include="Mappers\Mapper022.cs" />
+    <Compile Include="Mappers\Mapper023.cs" />
+    <Compile Include="Mappers\Mapper024.cs" />
+    <Compile Include="Mappers\Mapper025.cs" />
+    <Compile Include="Mappers\Mapper026.cs" />
+    <Compile Include="Mappers\Mapper032.cs" />
+    <Compile Include="Mappers\Mapper033.cs" />
+    <Compile Include="Mappers\Mapper034.cs" />
+    <Compile Include="Mappers\Mapper041.cs" />
+    <Compile Include="Mappers\Mapper042.cs" />
+    <Compile Include="Mappers\Mapper044.cs" />
+    <Compile Include="Mappers\Mapper045.cs" />
+    <Compile Include="Mappers\Mapper046.cs" />
+    <Compile Include="Mappers\Mapper047.cs" />
+    <Compile Include="Mappers\Mapper048.cs" />
+    <Compile Include="Mappers\Mapper049.cs" />
+    <Compile Include="Mappers\Mapper050.cs" />
+    <Compile Include="Mappers\Mapper051.cs" />
+    <Compile Include="Mappers\Mapper052.cs" />
+    <Compile Include="Mappers\Mapper053.cs" />
+    <Compile Include="Mappers\Mapper056.cs" />
+    <Compile Include="Mappers\Mapper057.cs" />
+    <Compile Include="Mappers\Mapper058.cs" />
+    <Compile Include="Mappers\Mapper060.cs" />
+    <Compile Include="Mappers\Mapper061.cs" />
+    <Compile Include="Mappers\Mapper062.cs" />
+    <Compile Include="Mappers\Mapper064.cs" />
+    <Compile Include="Mappers\Mapper065.cs" />
+    <Compile Include="Mappers\Mapper066.cs" />
+    <Compile Include="Mappers\Mapper067.cs" />
+    <Compile Include="Mappers\Mapper068.cs" />
+    <Compile Include="Mappers\Mapper069.cs" />
+    <Compile Include="Mappers\Mapper070.cs" />
+    <Compile Include="Mappers\Mapper071.cs" />
+    <Compile Include="Mappers\Mapper072.cs" />
+    <Compile Include="Mappers\Mapper073.cs" />
+    <Compile Include="Mappers\Mapper074.cs" />
+    <Compile Include="Mappers\Mapper075.cs" />
+    <Compile Include="Mappers\Mapper076.cs" />
+    <Compile Include="Mappers\Mapper077.cs" />
+    <Compile Include="Mappers\Mapper078.cs" />
+    <Compile Include="Mappers\Mapper079.cs" />
+    <Compile Include="Mappers\Mapper080.cs" />
+    <Compile Include="Mappers\Mapper082.cs" />
+    <Compile Include="Mappers\Mapper085.cs" />
+    <Compile Include="Mappers\Mapper086.cs" />
+    <Compile Include="Mappers\Mapper087.cs" />
+    <Compile Include="Mappers\Mapper088.cs" />
+    <Compile Include="Mappers\Mapper089.cs" />
+    <Compile Include="Mappers\Mapper090.cs" />
+    <Compile Include="Mappers\Mapper091.cs" />
+    <Compile Include="Mappers\Mapper092.cs" />
+    <Compile Include="Mappers\Mapper093.cs" />
+    <Compile Include="Mappers\Mapper094.cs" />
+    <Compile Include="Mappers\Mapper095.cs" />
+    <Compile Include="Mappers\Mapper096.cs" />
+    <Compile Include="Mappers\Mapper097.cs" />
+    <Compile Include="Mappers\Mapper105.cs" />
+    <Compile Include="Mappers\Mapper107.cs" />
+    <Compile Include="Mappers\Mapper112.cs" />
+    <Compile Include="Mappers\Mapper113.cs" />
+    <Compile Include="Mappers\Mapper115.cs" />
+    <Compile Include="Mappers\Mapper118.cs" />
+    <Compile Include="Mappers\Mapper119.cs" />
+    <Compile Include="Mappers\Mapper133.cs" />
+    <Compile Include="Mappers\Mapper140.cs" />
+    <Compile Include="Mappers\Mapper152.cs" />
+    <Compile Include="Mappers\Mapper154.cs" />
+    <Compile Include="Mappers\Mapper163.cs" />
+    <Compile Include="Mappers\Mapper164.cs" />
+    <Compile Include="Mappers\Mapper165.cs" />
+    <Compile Include="Mappers\Mapper180.cs" />
+    <Compile Include="Mappers\Mapper182.cs" />
+    <Compile Include="Mappers\Mapper184.cs" />
+    <Compile Include="Mappers\Mapper185.cs" />
+    <Compile Include="Mappers\Mapper189.cs" />
+    <Compile Include="Mappers\Mapper191.cs" />
+    <Compile Include="Mappers\Mapper192.cs" />
+    <Compile Include="Mappers\Mapper193.cs" />
+    <Compile Include="Mappers\Mapper194.cs" />
+    <Compile Include="Mappers\Mapper200.cs" />
+    <Compile Include="Mappers\Mapper201.cs" />
+    <Compile Include="Mappers\Mapper202.cs" />
+    <Compile Include="Mappers\Mapper203.cs" />
+    <Compile Include="Mappers\Mapper204.cs" />
+    <Compile Include="Mappers\Mapper205.cs" />
+    <Compile Include="Mappers\Mapper206.cs" />
+    <Compile Include="Mappers\Mapper207.cs" />
+    <Compile Include="Mappers\Mapper209.cs" />
+    <Compile Include="Mappers\Mapper212.cs" />
+    <Compile Include="Mappers\Mapper213.cs" />
+    <Compile Include="Mappers\Mapper214.cs" />
+    <Compile Include="Mappers\Mapper216.cs" />
+    <Compile Include="Mappers\Mapper222.cs" />
+    <Compile Include="Mappers\Mapper225.cs" />
+    <Compile Include="Mappers\Mapper226.cs" />
+    <Compile Include="Mappers\Mapper227.cs" />
+    <Compile Include="Mappers\Mapper228.cs" />
+    <Compile Include="Mappers\Mapper229.cs" />
+    <Compile Include="Mappers\Mapper230.cs" />
+    <Compile Include="Mappers\Mapper231.cs" />
+    <Compile Include="Mappers\Mapper232.cs" />
+    <Compile Include="Mappers\Mapper233.cs" />
+    <Compile Include="Mappers\Mapper240.cs" />
+    <Compile Include="Mappers\Mapper242.cs" />
+    <Compile Include="Mappers\Mapper243.cs" />
+    <Compile Include="Mappers\Mapper245.cs" />
+    <Compile Include="Mappers\Mapper246.cs" />
+    <Compile Include="Mappers\Mapper255.cs" />
+    <Compile Include="MyNesMain.cs" />
+    <Compile Include="Others\BlankJoypad.cs" />
+    <Compile Include="Others\BlankShortuctsHandler.cs" />
+    <Compile Include="Others\Crc32.cs" />
+    <Compile Include="Others\Delegates.cs" />
+    <Compile Include="Others\HelperTools.cs" />
+    <Compile Include="Others\MNInterfaceLanguage.cs" />
+    <Compile Include="Others\SoundFilters.cs" />
+    <Compile Include="Others\Tracer.cs" />
+    <Compile Include="Others\WaveRecorder.cs" />
+    <Compile Include="Others\ZlipWrapper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.ar.Designer.cs">
+      <DependentUpon>Resources.ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Settings\RendererSettings.cs" />
+    <Compile Include="Rom\INes.cs" />
+    <Compile Include="Rom\IRom.cs" />
+    <Compile Include="SDL2-CS\SDL2.cs" />
+    <Compile Include="SDL2-CS\SDL2_image.cs" />
+    <Compile Include="SDL2-CS\SDL2_mixer.cs" />
+    <Compile Include="SDL2-CS\SDL2_ttf.cs" />
+    <Compile Include="SDL2Renderers\IDrawable.cs" />
+    <Compile Include="SDL2Renderers\SDl2AudioProvider.cs" />
+    <Compile Include="SDL2Renderers\SDL2Settings.cs" />
+    <Compile Include="SDL2Renderers\SDL2VideoRenderer.cs" />
+    <Compile Include="SDL2Renderers\TextObject.cs" />
+    <Compile Include="SlimDXRenderers\Input\NesJoypadPcJoystickConnection.cs" />
+    <Compile Include="SlimDXRenderers\Input\NesJoypadXControllerConnection.cs" />
+    <Compile Include="SlimDXRenderers\Input\NesVSUnisystemDIPJoystickConnection.cs" />
+    <Compile Include="SlimDXRenderers\Input\NesVSUnisystemDIPKeyboardConnection.cs" />
+    <Compile Include="SlimDXRenderers\Input\NesVSUnisystemDIPXControllerConnection.cs" />
+    <Compile Include="SlimDXRenderers\Input\ShortcutsJoystickConnecter.cs" />
+    <Compile Include="SlimDXRenderers\Input\ShortcutsKeyboardConnecter.cs" />
+    <Compile Include="SlimDXRenderers\Input\ShortcutsXControllerConnecter.cs" />
+    <Compile Include="SlimDXRenderers\Input\ZapperConnecter.cs" />
+    <Compile Include="SoundChannels\MMC5Pcm.cs" />
+    <Compile Include="SoundChannels\MMC5Sqr.cs" />
+    <Compile Include="SoundChannels\Namcot106.cs" />
+    <Compile Include="SoundChannels\Sunsoft5BChnl.cs" />
+    <Compile Include="SoundChannels\VRC6Pulse.cs" />
+    <Compile Include="SoundChannels\VRC6Sawtooth.cs" />
+    <Compile Include="Settings\WINSettings.cs" />
+    <Compile Include="SlimDXRenderers\Input\NesJoypadPcKeyboardConnection.cs" />
+    <Compile Include="SlimDXRenderers\SlimDXAudioProvider.cs" />
+    <Compile Include="SlimDXRenderers\SlimDXVideoProvider.cs" />
+    <Compile Include="ZLIP\Adler32.cs" />
+    <Compile Include="ZLIP\Deflate.cs" />
+    <Compile Include="ZLIP\InfBlocks.cs" />
+    <Compile Include="ZLIP\InfCodes.cs" />
+    <Compile Include="ZLIP\Inflate.cs" />
+    <Compile Include="ZLIP\InfTree.cs" />
+    <Compile Include="ZLIP\StaticTree.cs" />
+    <Compile Include="ZLIP\SupportClass.cs" />
+    <Compile Include="ZLIP\Tree.cs" />
+    <Compile Include="ZLIP\ZInputStream.cs" />
+    <Compile Include="ZLIP\Zlib.cs" />
+    <Compile Include="ZLIP\ZOutputStream.cs" />
+    <Compile Include="ZLIP\ZStream.cs" />
+    <Compile Include="ZLIP\ZStreamException.cs" />
+    <EmbeddedResource Include="ControlsSettings\InputControls\InputControlJoypad.resx">
+      <DependentUpon>InputControlJoypad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSettings\InputControls\InputControlShortcuts.resx">
+      <DependentUpon>InputControlShortcuts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GameInfoViewer.resx">
+      <DependentUpon>GameInfoViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImagesViewer.resx">
+      <DependentUpon>ImagesViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\InfoViewer.resx">
+      <DependentUpon>InfoViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MLV\ManagedListView.resx">
+      <DependentUpon>ManagedListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MMB\Forms\Form_ManagedMesssageBox.resx">
+      <DependentUpon>Form_ManagedMesssageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Rating\Rating.resx">
+      <DependentUpon>Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSDL2Settings.resx">
+      <DependentUpon>FormSDL2Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGettingStarted.resx">
+      <DependentUpon>FormGettingStarted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAssignFilesToDB.resx">
+      <DependentUpon>FormAssignFilesToDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCreateDatabase.resx">
+      <DependentUpon>FormCreateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDetectForDatabase.resx">
+      <DependentUpon>FormDetectForDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDetectSelection.resx">
+      <DependentUpon>FormDetectSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFolders.resx">
+      <DependentUpon>FormFolders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEnterName.resx">
+      <DependentUpon>FormEnterName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGameGenie.resx">
+      <DependentUpon>FormGameGenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGeneratingDatabase.resx">
+      <DependentUpon>FormGeneratingDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInputSettings.resx">
+      <DependentUpon>FormInputSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormKey.resx">
+      <DependentUpon>FormKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLauncher.resx">
+      <DependentUpon>FormLauncher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRomInfo.resx">
+      <DependentUpon>FormRomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSearchLauncher.resx">
+      <DependentUpon>FormSearchLauncher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormStatesBrowser.ar.resx">
+      <DependentUpon>FormStatesBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormStatesBrowser.de.resx">
+      <DependentUpon>FormStatesBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormStatesBrowser.es.resx">
+      <DependentUpon>FormStatesBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormStatesBrowser.resx">
+      <DependentUpon>FormStatesBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFilesList.resx">
+      <DependentUpon>FormFilesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ar.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SDL2-CS\LICENSE" />
+    <None Include="SDL2-CS\README" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joystick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyNes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyNesImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls\MLV\Resources\noneRating.png" />
+    <Content Include="Controls\MLV\Resources\SortAlpha.ico" />
+    <Content Include="Controls\MLV\Resources\SortZ.ico" />
+    <Content Include="Controls\MLV\Resources\star_1.png" />
+    <Content Include="Controls\MLV\Resources\star_2.png" />
+    <Content Include="Controls\MLV\Resources\star_3.png" />
+    <Content Include="Controls\MLV\Resources\star_4.png" />
+    <Content Include="Controls\MLV\Resources\star_5.png" />
+    <Content Include="Controls\MMB\Resources\3830-12566.png" />
+    <Content Include="Controls\MMB\Resources\danger_cameleonhelp_divers.png" />
+    <Content Include="Controls\MMB\Resources\erreur_cameleonhelp_divers.png" />
+    <Content Include="Controls\MMB\Resources\information_cameleonhelp_divers.png" />
+    <Content Include="Controls\MMB\Resources\MessageIcon_Info.png" />
+    <Content Include="Controls\MMB\Resources\stop_designaxl_suite.png" />
+    <Content Include="ZLIP\history.txt" />
+    <Content Include="ZLIP\license.txt" />
+    <Content Include="ZLIP\readme.txt" />
+    <None Include="Resources\folder_database.png" />
+    <None Include="Resources\paypal-donate-button.gif" />
+    <None Include="Resources\folder_page.png" />
+    <None Include="Resources\control_repeat_blue.png" />
+    <None Include="Resources\control_repeat.png" />
+    <None Include="Resources\control_pause.png" />
+    <None Include="Resources\control_eject.png" />
+    <None Include="Resources\keyboard.png" />
+    <None Include="Resources\monitor.png" />
+    <None Include="Resources\filter_linear.PNG" />
+    <None Include="Resources\filter_point.PNG" />
+    <None Include="Resources\SortZ.ico" />
+    <None Include="Resources\SortAlpha.ico" />
+    <None Include="Resources\INES.ico" />
+    <None Include="Resources\stop_designaxl_suite.png" />
+    <None Include="Resources\MessageIcon_Info.png" />
+    <None Include="Resources\information_cameleonhelp_divers.png" />
+    <None Include="Resources\erreur_cameleonhelp_divers.png" />
+    <None Include="Resources\danger_cameleonhelp_divers.png" />
+    <None Include="Resources\3830-12566.png" />
+    <None Include="Resources\note_edit.png" />
+    <None Include="Resources\page_white.png" />
+    <None Include="Resources\disk.png" />
+    <None Include="Resources\wrench.png" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\database_go.png" />
+    <None Include="Resources\database_table.png" />
+    <None Include="Resources\database_add.png" />
+    <None Include="Resources\information.png" />
+    <None Include="Resources\control_play.png" />
+    <None Include="Resources\star_5.png" />
+    <None Include="Resources\star_4.png" />
+    <None Include="Resources\star_3.png" />
+    <None Include="Resources\star_2.png" />
+    <None Include="Resources\star_1.png" />
+    <None Include="Resources\server_database.png" />
+    <None Include="Resources\noneRating.png" />
+    <None Include="Resources\database_delete.png" />
+    <None Include="Resources\database.png" />
+    <None Include="Resources\application_view_list.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\arrow_right.png" />
+    <None Include="Resources\arrow_left.png" />
+    <None Include="Resources\the game db.png" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\cross_black.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\DBTables.txt" />
+    <None Include="Resources\arrow_refresh.png" />
+    <None Include="Resources\sound.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\SevenZipSharp.Interop.19.0.1\build\SevenZipSharp.Interop.targets" Condition="Exists('..\packages\SevenZipSharp.Interop.19.0.1\build\SevenZipSharp.Interop.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SevenZipSharp.Interop.19.0.1\build\SevenZipSharp.Interop.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SevenZipSharp.Interop.19.0.1\build\SevenZipSharp.Interop.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

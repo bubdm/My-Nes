@@ -1,0 +1,1288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="database_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desc2" xml:space="preserve">
+    <value>الرجاء اختيار مجلد اساسي لتحميل الملفات اليه, ينصح بان يكون المجلد خاليا</value>
+    <comment>Please select a master folder where to save the downloaded files (empty folder is recommended)</comment>
+  </data>
+  <data name="Message14" xml:space="preserve">
+    <value>لا يوجد اي مجلد للبحث.</value>
+    <comment>No folder to search</comment>
+  </data>
+  <data name="Button4" xml:space="preserve">
+    <value>لا تحذف مداخل Nes Cart</value>
+    <comment>Dont Delete Nes Cart Entries</comment>
+  </data>
+  <data name="Message18" xml:space="preserve">
+    <value>مجلد تسجيلات الصوت ليس موجود !!</value>
+    <comment>Sound Records folder is not exist !!</comment>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MyNes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyNes.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status28" xml:space="preserve">
+    <value>جاري تحميل المدخلات من قاعدة البيانات</value>
+    <comment>Loading entries from the database</comment>
+  </data>
+  <data name="I2" xml:space="preserve">
+    <value>INES هيدر</value>
+    <comment>INES Header</comment>
+  </data>
+  <data name="arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status14" xml:space="preserve">
+    <value>اخر مرة حفظ في</value>
+    <comment>Last saved at</comment>
+  </data>
+  <data name="S10" xml:space="preserve">
+    <value>لا يساوي</value>
+    <comment>Does Not Equal</comment>
+  </data>
+  <data name="control_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\control_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I4" xml:space="preserve">
+    <value>حجم</value>
+    <comment>Size</comment>
+  </data>
+  <data name="Message42" xml:space="preserve">
+    <value>الرجاء اختيار لعبة واحدة</value>
+    <comment>Please Select One Game To Open Location</comment>
+  </data>
+  <data name="Message43" xml:space="preserve">
+    <value>ملف اللعبة غير موجود او لم يتم تعيين اي ملف بعد لهذا المدخل</value>
+    <comment>Game File Not Exist Or No File Assigned To This Game Yet</comment>
+  </data>
+  <data name="thegamedbicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the game db.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message44" xml:space="preserve">
+    <value>الرجاء اختيار لعبة واحدة لاظهار ملف البيانات</value>
+    <comment>Please Select One Game To Show Info Of</comment>
+  </data>
+  <data name="MessageCap4" xml:space="preserve">
+    <value>حذف كود</value>
+    <comment>Remove Code</comment>
+  </data>
+  <data name="Message20" xml:space="preserve">
+    <value>مجلد الحالة ليس موجود !!</value>
+    <comment>States folder is not exist !!</comment>
+  </data>
+  <data name="Text0" xml:space="preserve">
+    <value>لم يتم لعبها بعد</value>
+    <comment>Never Played</comment>
+  </data>
+  <data name="Status40" xml:space="preserve">
+    <value>تم التقاط صورة</value>
+    <comment>Snapshot taken.</comment>
+  </data>
+  <data name="Status31" xml:space="preserve">
+    <value>مدخل تم تجاهله</value>
+    <comment>Entry Skipped</comment>
+  </data>
+  <data name="MessageIcon_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erreur_cameleonhelp_divers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message12" xml:space="preserve">
+    <value>مجلد Screenshots ليس موجود</value>
+    <comment>The folder for Screenshots is not exist</comment>
+  </data>
+  <data name="star_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application_view_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_view_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MyNesImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyNesImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message4" xml:space="preserve">
+    <value>اكمال ؟</value>
+    <comment>Coninue ?</comment>
+  </data>
+  <data name="Message28" xml:space="preserve">
+    <value>الرجاء ادخال اسم اللعبة اولا</value>
+    <comment>Please enter the game title first.</comment>
+  </data>
+  <data name="Status39" xml:space="preserve">
+    <value>غير قادر على عرض الصورة</value>
+    <comment>UNABLE TO SHOW IMAGE</comment>
+  </data>
+  <data name="Desc11" xml:space="preserve">
+    <value>فتح لعبة</value>
+    <comment>Open Rom</comment>
+  </data>
+  <data name="Message22" xml:space="preserve">
+    <value>هذا الملف ليس بملف My Nes GameGenie Codes List</value>
+    <comment>This file is not My Nes GameGenie Codes List file</comment>
+  </data>
+  <data name="Status3" xml:space="preserve">
+    <value>جاري تطبيق على قاعدة البيانات</value>
+    <comment>Applying Database</comment>
+  </data>
+  <data name="Button0" xml:space="preserve">
+    <value>&amp;حفظ</value>
+    <comment>&amp;Save</comment>
+  </data>
+  <data name="information_cameleonhelp_divers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\information_cameleonhelp_divers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status9" xml:space="preserve">
+    <value>جاري الالتقاط</value>
+    <comment>Detecting</comment>
+  </data>
+  <data name="status10" xml:space="preserve">
+    <value>تم التقاطها</value>
+    <comment>Detected</comment>
+  </data>
+  <data name="Message33" xml:space="preserve">
+    <value>ملف الالوان ليس موجود او مختار</value>
+    <comment>Palette file not exist or selected</comment>
+  </data>
+  <data name="Status34" xml:space="preserve">
+    <value>هو مضغوط لكن لا يمكن فتحه</value>
+    <comment>is archive but can't be opened.</comment>
+  </data>
+  <data name="S8" xml:space="preserve">
+    <value>لا ينتهي مع</value>
+    <comment>Does Not End With</comment>
+  </data>
+  <data name="Desc5" xml:space="preserve">
+    <value>التقاط تلقائي لملفات المعلومات</value>
+    <comment>Detect Info Files</comment>
+  </data>
+  <data name="Message6" xml:space="preserve">
+    <value>الرجاء اختيار منصة اولا</value>
+    <comment>Please select a Platform first</comment>
+  </data>
+  <data name="Message26" xml:space="preserve">
+    <value>لا يوجد اي كود للحفظ</value>
+    <comment>No code in the list to save!</comment>
+  </data>
+  <data name="MessageIcon_Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3830-12566.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filter_Palette" xml:space="preserve">
+    <value>ملف الاون '64 indexes' (*.pal)|*.pal|Palette file '512 indexes' (*.pal)|*.pal</value>
+    <comment>Palette file '64 indexes' (*.pal)|*.pal|Palette file '512 indexes' (*.pal)|*.pal</comment>
+  </data>
+  <data name="Message15" xml:space="preserve">
+    <value>لم يتم اضافة اية لاحقة بعد</value>
+    <comment>No extension added yet</comment>
+  </data>
+  <data name="Button3" xml:space="preserve">
+    <value>لا تحذف</value>
+    <comment>Dont Delete</comment>
+  </data>
+  <data name="MessageIcon_Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MessageIcon_Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status29" xml:space="preserve">
+    <value>جاري البحث عن الملفات</value>
+    <comment>Searching Files</comment>
+  </data>
+  <data name="Status17" xml:space="preserve">
+    <value>تم اختيار المنطقة</value>
+    <comment>Region set to</comment>
+  </data>
+  <data name="Status41" xml:space="preserve">
+    <value>جاري تسجيل الصوت</value>
+    <comment>Recording Audio</comment>
+  </data>
+  <data name="Message8" xml:space="preserve">
+    <value>مجلد BoxartBack ليس موجود</value>
+    <comment>The folder for BoxartBack is not exist</comment>
+  </data>
+  <data name="information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status27" xml:space="preserve">
+    <value>ملف تم ايجاده</value>
+    <comment>files found</comment>
+  </data>
+  <data name="wrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button1" xml:space="preserve">
+    <value>&amp;تحميل</value>
+    <comment>&amp;Load</comment>
+  </data>
+  <data name="Filter_Image" xml:space="preserve">
+    <value>صورة (*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga)|*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga</value>
+    <comment>Image (*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga)|*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga</comment>
+  </data>
+  <data name="Desc12" xml:space="preserve">
+    <value>اضافة المزيد من الصور</value>
+    <comment>Add More Images</comment>
+  </data>
+  <data name="Message32" xml:space="preserve">
+    <value>غير قادر على تحميل ملف الالوان</value>
+    <comment>Unable To Load Palette File</comment>
+  </data>
+  <data name="Status5" xml:space="preserve">
+    <value>جاري تحميل الملف</value>
+    <comment>Downloading file</comment>
+  </data>
+  <data name="Text1" xml:space="preserve">
+    <value>مرة واحدة</value>
+    <comment>One Time</comment>
+  </data>
+  <data name="Message1" xml:space="preserve">
+    <value>تم حفظ ملف الاحداث في</value>
+    <comment>Log file saved to</comment>
+  </data>
+  <data name="Desc9" xml:space="preserve">
+    <value>استعراض مجلد كودات الجيم جني</value>
+    <comment>Browse for Game Genie Codes folder</comment>
+  </data>
+  <data name="Status22" xml:space="preserve">
+    <value>جاري تحديث قاعدة البيانات</value>
+    <comment>Updating Database</comment>
+  </data>
+  <data name="Message50" xml:space="preserve">
+    <value>غير قادر على حذف الملف</value>
+    <comment>Unable To Remove File</comment>
+  </data>
+  <data name="I9" xml:space="preserve">
+    <value>PRG حجم</value>
+    <comment>PRG Size</comment>
+  </data>
+  <data name="Desc3" xml:space="preserve">
+    <value>التقاط تلقائي للصور</value>
+    <comment>Detect Snapshots</comment>
+  </data>
+  <data name="S3" xml:space="preserve">
+    <value>مماثل</value>
+    <comment>Is</comment>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>ثواني</value>
+    <comment>Seconds</comment>
+  </data>
+  <data name="Desc15" xml:space="preserve">
+    <value>تحميل الحالة باسم</value>
+    <comment>Load state as</comment>
+  </data>
+  <data name="accept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageIcon_Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\danger_cameleonhelp_divers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desc10" xml:space="preserve">
+    <value>استعراض مجلد تسجيلات الصوت</value>
+    <comment>Browse for Sound Records folder</comment>
+  </data>
+  <data name="Message3" xml:space="preserve">
+    <value>هذه المجلدات سيتم انشاؤها</value>
+    <comment>These folders will be created</comment>
+  </data>
+  <data name="I18" xml:space="preserve">
+    <value>الشريط</value>
+    <comment>Cartridge</comment>
+  </data>
+  <data name="I8" xml:space="preserve">
+    <value>PRG عدد</value>
+    <comment>PRG Count</comment>
+  </data>
+  <data name="Message9" xml:space="preserve">
+    <value>مجلد BoxartFront ليس موجود</value>
+    <comment>The folder for BoxartFront is not exist</comment>
+  </data>
+  <data name="note_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message36" xml:space="preserve">
+    <value>يجب اعادة تشغيل البرنامج لكي يتم تفعيل المخرج المختار</value>
+    <comment>My Nes needs to be restarted in order to renderer change take effect.</comment>
+  </data>
+  <data name="Message16" xml:space="preserve">
+    <value> مجلد كودات جيم جني ليست موجودة !!</value>
+    <comment>Game Genie Codes folder is not exist !!</comment>
+  </data>
+  <data name="Button2" xml:space="preserve">
+    <value>حذف</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="page_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status4" xml:space="preserve">
+    <value>جاري الانهاء</value>
+    <comment>Finishing</comment>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desc8" xml:space="preserve">
+    <value>استعراض مجلد اس رام</value>
+    <comment>Browse for Save-RAMs folder</comment>
+  </data>
+  <data name="Status24" xml:space="preserve">
+    <value>جاري انشاء المدخلات الافتراضية من NesCartDB</value>
+    <comment>Generating Default Entries From NesCartDB</comment>
+  </data>
+  <data name="Message39" xml:space="preserve">
+    <value>الرجاء اختيار لعبة واحدة للعب</value>
+    <comment>Please Select One Game To Play</comment>
+  </data>
+  <data name="S7" xml:space="preserve">
+    <value>ينتهي مع</value>
+    <comment>Ends With</comment>
+  </data>
+  <data name="MessageCap8" xml:space="preserve">
+    <value>حذف الصورة</value>
+    <comment>Remove Image</comment>
+  </data>
+  <data name="Message35" xml:space="preserve">
+    <value>غير قادر على فتح الملف المضغوط</value>
+    <comment>Unable to open archive file</comment>
+  </data>
+  <data name="Desc16" xml:space="preserve">
+    <value>اضافة ملفات الى قاعدة البيانات</value>
+    <comment>Add Files To The Database</comment>
+  </data>
+  <data name="Message10" xml:space="preserve">
+    <value>مجلد Fanart ليس موجود</value>
+    <comment>The folder for Fanart is not exist</comment>
+  </data>
+  <data name="Status6" xml:space="preserve">
+    <value>XXX غير قادر على تحميل الملف من</value>
+    <comment>XXX Unable to download file from</comment>
+  </data>
+  <data name="star_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joystick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joystick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageCap2" xml:space="preserve">
+    <value>التقاط تلقائي</value>
+    <comment>Detect</comment>
+  </data>
+  <data name="S12" xml:space="preserve">
+    <value>اكبر او يساوي</value>
+    <comment>Euqal OR Larger</comment>
+  </data>
+  <data name="MessageCap5" xml:space="preserve">
+    <value>البحث عن العاب</value>
+    <comment>Find Games</comment>
+  </data>
+  <data name="Message45" xml:space="preserve">
+    <value>لم يتم اختيار اي مدخل للحذف</value>
+    <comment>No Entry Selected To Delete</comment>
+  </data>
+  <data name="Filter_State" xml:space="preserve">
+    <value>My Nes ملف حالة (*.mns)|*.mns</value>
+    <comment>My Nes State (*.mns)|*.mns</comment>
+  </data>
+  <data name="Filter_Database" xml:space="preserve">
+    <value>My Nes قاعدة بيانات (*.mndb)|*.mndb</value>
+    <comment>My Nes Database (*.mndb)|*.mndb</comment>
+  </data>
+  <data name="Status26" xml:space="preserve">
+    <value>اجمالي</value>
+    <comment>Total Of</comment>
+  </data>
+  <data name="Message37" xml:space="preserve">
+    <value>عملية اخرى قيد التشغيل</value>
+    <comment>Another operation is in progress</comment>
+  </data>
+  <data name="Message41" xml:space="preserve">
+    <value>هل انت واثق من انشاء قاعدة بيانات جديدة</value>
+    <comment>Are You Sure You Want To Create New DB</comment>
+  </data>
+  <data name="Desc14" xml:space="preserve">
+    <value>حفظ الحالة باسم</value>
+    <comment>Save state as</comment>
+  </data>
+  <data name="I0" xml:space="preserve">
+    <value>خاصية</value>
+    <comment>Property</comment>
+  </data>
+  <data name="Message31" xml:space="preserve">
+    <value>الرجاء اختيار اسم العامود للبحث اولا</value>
+    <comment>Please select the search by column first</comment>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message40" xml:space="preserve">
+    <value>ملف اللعبة غير موجود او لم يتم تعيين اي ملف بعد لهذا المدخل</value>
+    <comment>Game File Not Exist Or No File Assigned To This Game Yet</comment>
+  </data>
+  <data name="arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Text2" xml:space="preserve">
+    <value>مرات</value>
+    <comment>Times</comment>
+  </data>
+  <data name="Message2" xml:space="preserve">
+    <value>هل تريد فتح ملف الاحداث ؟</value>
+    <comment>Do you want to open the log file ?</comment>
+  </data>
+  <data name="Message47" xml:space="preserve">
+    <value>تم نسخ المعلومات الى الذاكرة</value>
+    <comment>Info Copied Into The Clipboard</comment>
+  </data>
+  <data name="I19" xml:space="preserve">
+    <value>قاعدة بيانات</value>
+    <comment>DataBase</comment>
+  </data>
+  <data name="SortAlpha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SortAlpha.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status37" xml:space="preserve">
+    <value>جاري حذف المداخل</value>
+    <comment>Deleting Entries</comment>
+  </data>
+  <data name="Status23" xml:space="preserve">
+    <value>تم انشاء المدخلات الافتراضية ل NesCartDB بنجاح</value>
+    <comment>Default Entries From NesCartDB Generated Successfully</comment>
+  </data>
+  <data name="Message24" xml:space="preserve">
+    <value>ادخل تعليقا</value>
+    <comment>Enter Comment</comment>
+  </data>
+  <data name="Filter_Rom" xml:space="preserve">
+    <value>الانواع المدعومة (*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz|INES (*.nes)|*.nes|مضغوط (*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz</value>
+    <comment>Supported file types (*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.nes;*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz|INES (*.nes)|*.nes|Archive (*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz)|*.7z;*.zip;*.rar*.gzip;*.tar;*.bzip2;*.xz</comment>
+  </data>
+  <data name="cross_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I13" xml:space="preserve">
+    <value>هل هو في اس سيستم</value>
+    <comment>Is VS-Unisystem</comment>
+  </data>
+  <data name="Message48" xml:space="preserve">
+    <value>هل انت واثق من حذف الصورة ؟</value>
+    <comment>Are You Sure To Remove Image</comment>
+  </data>
+  <data name="Status0" xml:space="preserve">
+    <value>الحصول على المدخلات للمنصة</value>
+    <comment>Getting entries for selected platform</comment>
+  </data>
+  <data name="S6" xml:space="preserve">
+    <value>لا يبدا مع</value>
+    <comment>Does Not Start With</comment>
+  </data>
+  <data name="Message30" xml:space="preserve">
+    <value>الرجاء ادخال كلمة البحث اولا</value>
+    <comment>Please enter the search word first</comment>
+  </data>
+  <data name="Status35" xml:space="preserve">
+    <value>جاري تحديث الاعمدة</value>
+    <comment>Updating Columns In The Database</comment>
+  </data>
+  <data name="Message21" xml:space="preserve">
+    <value>المحاكي ليس شغال</value>
+    <comment>Nes is off</comment>
+  </data>
+  <data name="I17" xml:space="preserve">
+    <value>معلومات عن اللعبة</value>
+    <comment>Game Info</comment>
+  </data>
+  <data name="S2" xml:space="preserve">
+    <value>لا يحوي</value>
+    <comment>Does Not Contain</comment>
+  </data>
+  <data name="Status36" xml:space="preserve">
+    <value>جاهز.</value>
+    <comment>Ready.</comment>
+  </data>
+  <data name="server_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\server_database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S4" xml:space="preserve">
+    <value>غير مماثل</value>
+    <comment>Is Not</comment>
+  </data>
+  <data name="Status16" xml:space="preserve">
+    <value>لا يوجد بيانات للعبة في هذا المنفذ</value>
+    <comment>No data found for this game in this slot.</comment>
+  </data>
+  <data name="Message25" xml:space="preserve">
+    <value>هل انت متاكد ؟</value>
+    <comment>Are you sure ?</comment>
+  </data>
+  <data name="Status7" xml:space="preserve">
+    <value>جاري حفظ الملف في</value>
+    <comment>Saving file at</comment>
+  </data>
+  <data name="star_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageCap3" xml:space="preserve">
+    <value>كود جيم جني</value>
+    <comment>GameGenie Code</comment>
+  </data>
+  <data name="S11" xml:space="preserve">
+    <value>اكبر من</value>
+    <comment>Larger</comment>
+  </data>
+  <data name="MessageIcon_Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop_designaxl_suite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DBTables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DBTables.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Message38" xml:space="preserve">
+    <value>لم يتم تحميل اية قاعدة بيانات بعد</value>
+    <comment>No Database loaded yet</comment>
+  </data>
+  <data name="SLOT" xml:space="preserve">
+    <value>منفذ</value>
+    <comment>SLOT</comment>
+  </data>
+  <data name="I10" xml:space="preserve">
+    <value>لديه بطارية</value>
+    <comment>Has Battery</comment>
+  </data>
+  <data name="Status11" xml:space="preserve">
+    <value>جاري التحميل</value>
+    <comment>Downloading</comment>
+  </data>
+  <data name="Message34" xml:space="preserve">
+    <value>ملف الالوان موجود سابقا, هل تود استبداله ؟</value>
+    <comment>Palette file already exists, would you like to replace the palette file ?</comment>
+  </data>
+  <data name="I12" xml:space="preserve">
+    <value>هل هو بلايشوس 10</value>
+    <comment>Is Playchoice10</comment>
+  </data>
+  <data name="S13" xml:space="preserve">
+    <value>اصغر من</value>
+    <comment>Smaller</comment>
+  </data>
+  <data name="Message52" xml:space="preserve">
+    <value>الرجاء اختيار جهاز الادخال اولا</value>
+    <comment>Please select the input device first.</comment>
+  </data>
+  <data name="Desc13" xml:space="preserve">
+    <value>اختيار اين سيتم تحميل الملفات</value>
+    <comment>Choose Where To Download The Files</comment>
+  </data>
+  <data name="Message19" xml:space="preserve">
+    <value>مجلد الاس رام ليس موجود !!</value>
+    <comment>Save-RAMs folder is not exist !!</comment>
+  </data>
+  <data name="Desc1" xml:space="preserve">
+    <value>حفظ ملف قاعدة بيانات</value>
+    <comment>Save My Nes Database File</comment>
+  </data>
+  <data name="MessageCap1" xml:space="preserve">
+    <value>التقاط و تحميل من The Games DB</value>
+    <comment>Detect And Download From The Games DB</comment>
+  </data>
+  <data name="Message17" xml:space="preserve">
+    <value>مجلد الصور ليس موجود !!</value>
+    <comment>Snapshots folder is not exist !!</comment>
+  </data>
+  <data name="Status20" xml:space="preserve">
+    <value>مستوى الصوت</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="Message46" xml:space="preserve">
+    <value>هل انت واثق من حذف المداخل المختارة</value>
+    <comment>Are You Sure You Want To Delete Selected Entries</comment>
+  </data>
+  <data name="I16" xml:space="preserve">
+    <value>المعلومات من NesCart</value>
+    <comment>Game Info From NesCart Database</comment>
+  </data>
+  <data name="Status25" xml:space="preserve">
+    <value>جاري حساب الملفات</value>
+    <comment>Calculating Files</comment>
+  </data>
+  <data name="Status38" xml:space="preserve">
+    <value>لم يتم اختيار اي لعبة</value>
+    <comment>No Game Selected</comment>
+  </data>
+  <data name="Status13" xml:space="preserve">
+    <value>سيتم الالغاء التلقائي بعد</value>
+    <comment>Canceling in</comment>
+  </data>
+  <data name="desc7" xml:space="preserve">
+    <value>استعراض مجلد الحالة</value>
+    <comment>Browse for States folder</comment>
+  </data>
+  <data name="I7" xml:space="preserve">
+    <value>CHR حجم</value>
+    <comment>CHR Size</comment>
+  </data>
+  <data name="Status1" xml:space="preserve">
+    <value>الحصول على الرومات</value>
+    <comment>Collecting the roms</comment>
+  </data>
+  <data name="Status18" xml:space="preserve">
+    <value>تم وصل جيم جني</value>
+    <comment>GameGenie Connected</comment>
+  </data>
+  <data name="Message27" xml:space="preserve">
+    <value>لا يوجد اي كود في القائمة</value>
+    <comment>There is no code in the list</comment>
+  </data>
+  <data name="noneRating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noneRating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message11" xml:space="preserve">
+    <value>مجلد Overview ليس موجود</value>
+    <comment>The folder for Overview is not exist</comment>
+  </data>
+  <data name="I14" xml:space="preserve">
+    <value>المراة</value>
+    <comment>Mirroring</comment>
+  </data>
+  <data name="database_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I3" xml:space="preserve">
+    <value>مسار</value>
+    <comment>Path</comment>
+  </data>
+  <data name="ErrorStatus" xml:space="preserve">
+    <value>خطأ</value>
+    <comment>ERROR</comment>
+  </data>
+  <data name="Status15" xml:space="preserve">
+    <value>لم يتمكن من تحميل معلومات الحالة</value>
+    <comment>Unable to load state file info !!</comment>
+  </data>
+  <data name="Status19" xml:space="preserve">
+    <value>تم الغاء وصل جيم جني</value>
+    <comment>GameGenie Disconnected</comment>
+  </data>
+  <data name="I5" xml:space="preserve">
+    <value>رقم المابر</value>
+    <comment>Mapper Number</comment>
+  </data>
+  <data name="S5" xml:space="preserve">
+    <value>يبدا مع</value>
+    <comment>Start With</comment>
+  </data>
+  <data name="Desc0" xml:space="preserve">
+    <value>اضافة مجلد الى قائمة البحث</value>
+    <comment>Add folder to the scan list</comment>
+  </data>
+  <data name="database_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status21" xml:space="preserve">
+    <value>جاري اضافة المدخلات</value>
+    <comment>Adding Entries</comment>
+  </data>
+  <data name="Status30" xml:space="preserve">
+    <value>مدخل تم تحديثه</value>
+    <comment>Entry UPDATED</comment>
+  </data>
+  <data name="arrow_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>النسخة</value>
+    <comment>Version</comment>
+  </data>
+  <data name="Message13" xml:space="preserve">
+    <value>هل انت متاكد من حذف المجلدات المختارة ؟</value>
+    <comment>Are you sure you want to delete selected folders ?</comment>
+  </data>
+  <data name="MessageCap7" xml:space="preserve">
+    <value>حذف المداخل</value>
+    <comment>Delete Entries</comment>
+  </data>
+  <data name="I1" xml:space="preserve">
+    <value>القيمة</value>
+    <comment>Value</comment>
+  </data>
+  <data name="I15" xml:space="preserve">
+    <value>معلومات الملف</value>
+    <comment>File Info</comment>
+  </data>
+  <data name="S1" xml:space="preserve">
+    <value>يحوي</value>
+    <comment>Contains</comment>
+  </data>
+  <data name="INES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\INES.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>تم</value>
+    <comment>Done</comment>
+  </data>
+  <data name="Desc6" xml:space="preserve">
+    <value>استعراض مجلد الصور</value>
+    <comment>Browse for Snapshots folder</comment>
+  </data>
+  <data name="Message5" xml:space="preserve">
+    <value>هل انت واثق من ايقاف العملية الحالية ؟</value>
+    <comment>Are you sure you want to stop current proccess ?</comment>
+  </data>
+  <data name="Message29" xml:space="preserve">
+    <value>الرجاء اختيار نتيجة اولا</value>
+    <comment>Please select one result first</comment>
+  </data>
+  <data name="Status32" xml:space="preserve">
+    <value>مدخل تم اضافته</value>
+    <comment>Entry ADDED</comment>
+  </data>
+  <data name="MessageCap6" xml:space="preserve">
+    <value>انشاء قاعدة بيانات جديدة</value>
+    <comment>Create New Database</comment>
+  </data>
+  <data name="Message51" xml:space="preserve">
+    <value>هل انت واثق من حذف كافة الصور</value>
+    <comment>Are You Sure To Remove All Images</comment>
+  </data>
+  <data name="S14" xml:space="preserve">
+    <value>اصغر او يساوي</value>
+    <comment>Equal OR Smaller</comment>
+  </data>
+  <data name="database_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message23" xml:space="preserve">
+    <value>الكود موجود سابقا في القائمة</value>
+    <comment>Code already exist in the list</comment>
+  </data>
+  <data name="Status2" xml:space="preserve">
+    <value>جاري المقارنة</value>
+    <comment>Comparing</comment>
+  </data>
+  <data name="Message0" xml:space="preserve">
+    <value>يجب اختيار مجلد واحد للبحث</value>
+    <comment>You must select one folder to search</comment>
+  </data>
+  <data name="star_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message49" xml:space="preserve">
+    <value>حذف الملف من القرص ايضا ؟</value>
+    <comment>Remove File From Disk Too</comment>
+  </data>
+  <data name="Status8" xml:space="preserve">
+    <value>استيراد قاعدة البيانات تمت في</value>
+    <comment>Database import operation finished at</comment>
+  </data>
+  <data name="SortZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SortZ.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status33" xml:space="preserve">
+    <value>ملف</value>
+    <comment>File</comment>
+  </data>
+  <data name="S9" xml:space="preserve">
+    <value>يساوي</value>
+    <comment>Equal</comment>
+  </data>
+  <data name="Status12" xml:space="preserve">
+    <value>اضغط زرا ل</value>
+    <comment>Press key for</comment>
+  </data>
+  <data name="Desc4" xml:space="preserve">
+    <value>التقاط تلقائي للاغلفة</value>
+    <comment>Detect Covers</comment>
+  </data>
+  <data name="I11" xml:space="preserve">
+    <value>لديه ترينر</value>
+    <comment>Has Trainer</comment>
+  </data>
+  <data name="Message7" xml:space="preserve">
+    <value>مجلد Banners ليس موجود</value>
+    <comment>The folder for Banners is not exist</comment>
+  </data>
+  <data name="I6" xml:space="preserve">
+    <value>CHR عدد</value>
+    <comment>CHR Count</comment>
+  </data>
+  <data name="sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button5" xml:space="preserve">
+    <value>توقيف تسجيل الصوت</value>
+    <comment>Stop Recording Sound</comment>
+  </data>
+  <data name="Button6" xml:space="preserve">
+    <value>تسجيل الصوت</value>
+    <comment>Record Sound</comment>
+  </data>
+  <data name="Message53" xml:space="preserve">
+    <value>نصوص اللغة المختارة سيتم تفعيلها في المرة القادة التي تشغل فيها البرنامج</value>
+    <comment>The selected interface language will be applied next time you start My Nes.</comment>
+  </data>
+  <data name="MessageCap9" xml:space="preserve">
+    <value>تغيير لغة الواجهة</value>
+    <comment>Change Interface Language</comment>
+  </data>
+  <data name="Status42" xml:space="preserve">
+    <value>تم وصل اربع لاعبين</value>
+    <comment>4 Players now connected.</comment>
+  </data>
+  <data name="Status43" xml:space="preserve">
+    <value>تم الغاء توصيل اربع لاعبين</value>
+    <comment>4 Players now disconnected.</comment>
+  </data>
+  <data name="Name1" xml:space="preserve">
+    <value>X Controller اللاعب الاول</value>
+    <comment>X Controller Player One</comment>
+  </data>
+  <data name="Name2" xml:space="preserve">
+    <value>X Controller اللاعب الثاني</value>
+    <comment>X Controller Player Two</comment>
+  </data>
+  <data name="Name3" xml:space="preserve">
+    <value>X Controller اللاعب الثالث</value>
+    <comment>X Controller Player Three</comment>
+  </data>
+  <data name="Name4" xml:space="preserve">
+    <value>X Controller اللاعب الرابع</value>
+    <comment>X Controller Player Four</comment>
+  </data>
+  <data name="GettingStartedDesc" xml:space="preserve">
+    <value>Slimdx يستخدم Direct3d9 للصورة و  DirectSound للصوت.
+
+SDL2 تستخدم مكاتبSDL2, يمكن تغيير السائق بين direct3d و opengl
+
+كلا المكتبتان تنتجان نفس جودة الصورة و الصوت الممتازة, الفرق الوحيد هو في الاداء و السرعة.
+الرجاء اختر ما يتناسب مع جهازك, ينصح ب SDL2 للصوة و الصوت</value>
+    <comment>Slimdx renderers render using Direct3d9 for video and DirectSound for sound.
+After tests, these renderers run very slow in low-end pcs.
+
+SDL2 renderers render using SDL2 library. The video renderer can be set to direct3d or opengl driver.
+it run smooth and fast on low-end pcs (thus, smooth and fast on all kind of machines).
+RECOMMENDED for both video and sound.
+
+Both renderers provide very good images quality and sound, there is no difference since both renderers act as presenters.
+The only difference is performence, please choose the one  that suits up your machine.</comment>
+  </data>
+  <data name="SDL2SettingsWarning" xml:space="preserve">
+    <value>تحذير
+قد يفشل البرنامج في الاقلاع بعد تغيير اعدادات السائق او التعريف.
+لحل تلك المشكلة الرجاء اذهب الى الملف:
+Documents&gt;MyNes&gt;sdlsettings.ini
+احذف الملف او عدل السطر:
+"Video_Driver=opengl" الى "Video_Driver=direct3d"
+ثم حاول مجددا.</value>
+  </data>
+  <data name="Status44" xml:space="preserve">
+    <value>وضع الشاشة الكاملة, الرجاء الضغط على Escape للعودة الى النافذة</value>
+    <comment>Full screen mode, press ESCAPE to switch back into windowed mode.</comment>
+  </data>
+  <data name="CoreMapper" xml:space="preserve">
+    <value>مابر</value>
+  </data>
+  <data name="CoreMessage_Error1" xml:space="preserve">
+    <value>لا يمكن حفظ الحالي, المحاكي غير مشغل</value>
+  </data>
+  <data name="CoreMessage_Error10" xml:space="preserve">
+    <value>لا يمكن تحميل الحالة من المنفذ</value>
+  </data>
+  <data name="CoreMessage_Error11" xml:space="preserve">
+    <value>ليس بملف حالة</value>
+  </data>
+  <data name="CoreMessage_Error12" xml:space="preserve">
+    <value>نسخة غير متطابقة من ملف الحالة</value>
+  </data>
+  <data name="CoreMessage_Error13" xml:space="preserve">
+    <value>ملف الحالة هذا ليس لهذه اللعبة</value>
+  </data>
+  <data name="CoreMessage_Error14" xml:space="preserve">
+    <value>لا يمكن ايجادها, المبر غير مدعوم او غير موجود</value>
+  </data>
+  <data name="CoreMessage_Error15" xml:space="preserve">
+    <value>سيتم استخدامها بدلا من ذلك, تم التعيين بنجاح</value>
+  </data>
+  <data name="CoreMessage_Error16" xml:space="preserve">
+    <value>طول كود الجيم جني لا يمكن ان يكون اكثر من 8 احرف</value>
+  </data>
+  <data name="CoreMessage_Error17" xml:space="preserve">
+    <value>يوجد فيه مشاكل و قد لايعمل بشكل صحيح مع هذه اللعبة</value>
+  </data>
+  <data name="CoreMessage_Error2" xml:space="preserve">
+    <value>لا يمكن حفظ الحالة, لا يوجد لعبة محملة</value>
+  </data>
+  <data name="CoreMessage_Error3" xml:space="preserve">
+    <value>لا يمكن حفظ الحالة و تحميل الحالة بنفس الوقت</value>
+  </data>
+  <data name="CoreMessage_Error4" xml:space="preserve">
+    <value>جاري حفظ الحالة حاليا</value>
+  </data>
+  <data name="CoreMessage_Error5" xml:space="preserve">
+    <value>لا يمكن تحميل الحالة, المحاكي غير شغال</value>
+  </data>
+  <data name="CoreMessage_Error6" xml:space="preserve">
+    <value>لا يمكن تحميل الحال, لا يوجد لعبة محملة</value>
+  </data>
+  <data name="CoreMessage_Error7" xml:space="preserve">
+    <value>لا يمكن تحميل الحالة و حفظ الحالة بنفس الوقت</value>
+  </data>
+  <data name="CoreMessage_Error8" xml:space="preserve">
+    <value>جاري تحميل الحالة حاليا</value>
+  </data>
+  <data name="CoreMessage_Error9" xml:space="preserve">
+    <value>لا يوجد بيانات في المنفذ</value>
+  </data>
+  <data name="CoreMessage_GameGenieCanBeConfiguredOnly" xml:space="preserve">
+    <value>يمكن تفعيل او تعديل جيم جني فقط في حال كان هناك لعبة محملة</value>
+  </data>
+  <data name="CoreMessage_HardReset" xml:space="preserve">
+    <value>اعادة تشغيل</value>
+  </data>
+  <data name="CoreMessage_HardResetCanBeUsedOnly" xml:space="preserve">
+    <value>اعادة التشغيل يمكن استخدامها فقط عند المحاكاه</value>
+  </data>
+  <data name="CoreMessage_Info1" xml:space="preserve">
+    <value>تم حفظ الحالة في المنفذ</value>
+  </data>
+  <data name="CoreMessage_Info2" xml:space="preserve">
+    <value>تم تحميل الحالة من المنفذ</value>
+  </data>
+  <data name="CoreMessage_Info3" xml:space="preserve">
+    <value>تم حفظ الصورة</value>
+  </data>
+  <data name="CoreMessage_Info4" xml:space="preserve">
+    <value>تم تعين لغة الواجهات الى</value>
+  </data>
+  <data name="CoreMessage_LoadStateCanBeUsedOnly" xml:space="preserve">
+    <value>يمكن تحميل الحالة فقط عند المحاكاة</value>
+  </data>
+  <data name="CoreMessage_Paused" xml:space="preserve">
+    <value>توقيف موئقت</value>
+  </data>
+  <data name="CoreMessage_PleaseRestartToApply" xml:space="preserve">
+    <value>الرجاء اعادة تشغيل البرنامج للتفعيل</value>
+  </data>
+  <data name="CoreMessage_RomInfoCanBeOnlyShown" xml:space="preserve">
+    <value>يمكن عرض بيانات اللعبة فقط عند المحاكاة</value>
+  </data>
+  <data name="CoreMessage_SaveStateCanBeUseOnly" xml:space="preserve">
+    <value>يكن حفظ الحالة فقط عند المحاكاة</value>
+  </data>
+  <data name="CoreMessage_SoftReset" xml:space="preserve">
+    <value>اعادة تشغيل سوفت</value>
+  </data>
+  <data name="CoreMessage_SoftResetCanBeUsedOnly" xml:space="preserve">
+    <value>اعادة تشغيل سوفت تعمل فقط عند المحاكاة</value>
+  </data>
+  <data name="CoreMessage_StateSlotSetTo" xml:space="preserve">
+    <value>تم تحديد المنفذ </value>
+  </data>
+  <data name="CoreMessage_TurboCanBeToggledOnly" xml:space="preserve">
+    <value>توربو يمكن تشغيلها فقط عند المحاكاة</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+    <comment>No</comment>
+  </data>
+  <data name="Status45" xml:space="preserve">
+    <value>اجمالي</value>
+    <comment>Total of</comment>
+  </data>
+  <data name="Status46" xml:space="preserve">
+    <value>مبر مدعوم</value>
+    <comment>board(s) supported.</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="IssueMapper105" xml:space="preserve">
+    <value>اللعبة تتوقف في البداية</value>
+    <comment>Game hangs on title screen !</comment>
+  </data>
+  <data name="IssueMapper119" xml:space="preserve">
+    <value>Mapper 119 لا يعمل بشكل صحيح</value>
+    <comment>Mapper 119 does not function probably</comment>
+  </data>
+  <data name="IssueMapper154" xml:space="preserve">
+    <value>اللعبة تظهر مشاكل في الرسوم</value>
+    <comment>Game shows glitches with chr</comment>
+  </data>
+  <data name="IssueMapper180" xml:space="preserve">
+    <value>Crazy Climber تحتاج الى تحكم لم يتم محاكاته بعد</value>
+    <comment>Crazy Climber needs special controller which not implemented yet</comment>
+  </data>
+  <data name="IssueMapper191" xml:space="preserve">
+    <value>Mapper 191 is not tested, issues may occur</value>
+    <comment>Mapper 191 is not tested, issues may occur</comment>
+  </data>
+  <data name="IssueMapper193" xml:space="preserve">
+    <value>لا تظهر اللعبة شيئا غير المقاتل</value>
+    <comment>Game show nothing but fighter sprite !</comment>
+  </data>
+  <data name="IssueMapper202" xml:space="preserve">
+    <value>150 in 1: بعض الالعاب لا تعمل بشكل صحيح, هل هو المابر ام الملف</value>
+    <comment>150 in 1: some games not work well. Is it mapper or rom dump ?</comment>
+  </data>
+  <data name="IssueMapper203" xml:space="preserve">
+    <value>64-in-1: بعض الالعاب لا تعمل بشكل صحيح, هل هو المابر ام الملف</value>
+    <comment>64-in-1: some games not work, maybe something wrong with the implementation or the rom itself</comment>
+  </data>
+  <data name="IssueMapper207" xml:space="preserve">
+    <value>Fudou Myouou Den لم يتم تعينها للمابر  207 كما يتوجب</value>
+    <comment>Fudou Myouou Den is not assigned as mapper 207 while it should be !</comment>
+  </data>
+  <data name="IssueMapper222" xml:space="preserve">
+    <value>Mapper 222 لم يتم اختباره, قد تظهر مشاكل محتملة</value>
+    <comment>Mapper 222 is not tested, issues may occur</comment>
+  </data>
+  <data name="IssueMapper228" xml:space="preserve">
+    <value>Mapper 228 لا يعمل بشكل صحيح</value>
+    <comment>Mapper 228 does not function probably</comment>
+  </data>
+  <data name="IssueMapper229" xml:space="preserve">
+    <value>Mapper 229 لم يتم اختباره, قد تظهر مشاكل محتملة</value>
+    <comment>Mapper 229 is not tested, issues may occur</comment>
+  </data>
+  <data name="IssueMapper230" xml:space="preserve">
+    <value>فقط Contra تعمل</value>
+    <comment>Only Contra works !?</comment>
+  </data>
+  <data name="IssueMapper243" xml:space="preserve">
+    <value>يظهر مشاكل في الرسوم</value>
+    <comment>Shows glitches in some games.</comment>
+  </data>
+  <data name="IssueMapper245" xml:space="preserve">
+    <value>يظهر مشاكل في الرسوم</value>
+    <comment>Graphic glitches, maybe chr switches.</comment>
+  </data>
+  <data name="IssueMapper255" xml:space="preserve">
+    <value>Mapper 255 لم يتم اختباره, قد تظهر مشاكل محتملة</value>
+    <comment>Mapper 255 is not tested, issues may occur</comment>
+  </data>
+  <data name="IssueMapper33" xml:space="preserve">
+    <value>Mapper 33: Akira لا تعمل لسبب مجهول</value>
+    <comment>Mapper 33: Akira is not working for unknown reason.</comment>
+  </data>
+  <data name="IssueMapper44" xml:space="preserve">
+    <value>In game Super Big 7 - in - 1 : Double Dragon 3 لا تعمل</value>
+    <comment>In game Super Big 7 - in - 1 : Double Dragon 3 game does not work.</comment>
+  </data>
+  <data name="IssueMapper5" xml:space="preserve">
+    <value>Split screen لم يتم دعم.
+Uchuu Keibitai SDF game اخطاء في الرسوم في بداية اللعبة لسبب مجهول.</value>
+    <comment>Split screen not implemented.\nUchuu Keibitai SDF game graphic corruption for unknown reason in the intro (not in the split screen).</comment>
+  </data>
+  <data name="IssueMapper53" xml:space="preserve">
+    <value>Mapper 53 بعض الالعاب لا تعمل بشكل صحيح, هل هو المابر ام الملف</value>
+    <comment>Mapper 53 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</comment>
+  </data>
+  <data name="IssueMapper56" xml:space="preserve">
+    <value>Mapper 56 بعض الالعاب لا تعمل بشكل صحيح, هل هو المابر ام الملف</value>
+    <comment>Mapper 56 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</comment>
+  </data>
+  <data name="IssueMapper58" xml:space="preserve">
+    <value>Study and Game 32-in-1 (Ch) [!] تحتاج دعم كيبورد</value>
+    <comment>Study and Game 32-in-1 (Ch) [!].nes needs keyboard ?</comment>
+  </data>
+  <data name="IssueMapper6" xml:space="preserve">
+    <value>Mapper 6 لم يتم اختباره, قد تظهر مشاكل محتملة</value>
+    <comment>Mapper 6 is not tested, issues may occur</comment>
+  </data>
+  <data name="IssueMapper60" xml:space="preserve">
+    <value>Mapper 60 بعض الالعاب لا تعمل بشكل صحيح, هل هو المابر ام الملف</value>
+    <comment>Mapper 60 does not work with the test roms i have, maybe something wrong with the implementation or the roms themselves</comment>
+  </data>
+  <data name="IssueMapper8" xml:space="preserve">
+    <value>Mapper 8 لم يتم اختباره, قد تظهر مشاكل محتملة</value>
+    <comment>Mapper 8 is not tested, issues may occur</comment>
+  </data>
+  <data name="IssueMapper85" xml:space="preserve">
+    <value>VRC7 قنوات الصوت غير مدعومة</value>
+    <comment>VRC7 sound channels are not supported</comment>
+  </data>
+  <data name="IssueMapper90" xml:space="preserve">
+    <value>DipSwitch لم يتم دعم, irq أوضاع 2-3 لم يتم دعم</value>
+    <comment>DipSwitch is not implemented, the irq modes 2-3 are not implemented yet.</comment>
+  </data>
+  <data name="IssueMapper96" xml:space="preserve">
+    <value>Mapper 96 لا يعمل بشكل صحيح, لربما بحاجة الى تحكمات خاصة</value>
+    <comment>Mapper 96 does not function probably and needs special controller to be implemented.</comment>
+  </data>
+  <data name="GettingStartedNotes" xml:space="preserve">
+    <value>ملاحظات:
+افتراضيا, هذه هي الاعدادات الاخرى:
+. اذا كان لديك قبضات اكس بوكس متصلة, سيقوم البرنامج اوتوماتيكيا بتعيين هذه القبضات: اللاعب الاول مع اللاعب الاول في المحاكي, اللاعب الثاني مع اللاعب الثاني في المحاكي و هكذا. اكبر عدد ممكن هو 4 لاعبين.
+. اذا كانت قبضة ما معينة مسبقا, ثم تم فصل تلك القبضة, سيقوم المحاكي باعادة التعين الى لوحة المفاتيح اوتوماتيكيا.
+. عندما تستخدم المستعرض لتشغيل لعبة ما, و تريد اعادة المستعرض بسرعة, كل ما عليك فعله هو ايقاف تشغيل المحاكي, اما بالضغط على F1 أو Escape</value>
+    <comment>NOTES:
+These are the default configurations by default:
+- If a Xbox Controller is connected, it will be assigned automatically:
+X Controller player 1 for nes player 1, player 2 for nes player 2... player 4 for nes player 4.
+- If a controller is assigned, then it is disconnected, My Nes will automatically switch back into keyboard.
+- When you use the launcher to launch a game, then you want the launcher to return, press F1/Escape to shutdown the emulation. This should bring up the launcher dialog back.</comment>
+  </data>
+  <data name="Status50" xml:space="preserve">
+    <value>تم تفعيل منقيات الصوت</value>
+    <comment>Sound Filters Enabled</comment>
+  </data>
+  <data name="Status51" xml:space="preserve">
+    <value>تم الغاء تفعيل منقيات الصوت</value>
+    <comment>Sound Filters Disabled</comment>
+  </data>
+  <data name="Status52" xml:space="preserve">
+    <value>تم تفعيل الميكسر</value>
+    <comment>My Nes sound mixer enabled</comment>
+  </data>
+  <data name="Status53" xml:space="preserve">
+    <value>تم الغاء تفعيل الميكسر, تم تفعيل الميكسر الافتراضي</value>
+    <comment>My Nes sound mixer disabled (using default nes mixer, as in wiki)</comment>
+  </data>
+  <data name="Status54" xml:space="preserve">
+    <value>تم وضع منفذ الحالة</value>
+    <comment>State slot set to</comment>
+  </data>
+  <data name="Status55" xml:space="preserve">
+    <value>الصوت</value>
+    <comment>Volume</comment>
+  </data>
+  <data name="Filter_Text" xml:space="preserve">
+    <value>ملف نصّي (*.txt)|*.txt</value>
+  </data>
+</root>
