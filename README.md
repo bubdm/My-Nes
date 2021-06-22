@@ -11,9 +11,6 @@ my NES is a portable open source NES/Famicom emulator written in C#.
 My Nes is A Nintendo Entertainment System / Family Computer (Nes/Famicom) emulator written in C#. 
 An open source .net freeware, licensed under the GNU GENERAL PUBLIC LICENSE; Version 3, 29 June 2007.
 
-My Nes is implemented with improved emulation engine and run extremely fast into C programming language, 
-My C Nes can be found here: <https://github.com/alaahadid/My-C-Nes>
-
 The main goal of My Nes is to be as accurate as possible and brings the best game play experince possible.
 
 My Nes can pass all basic nes tests that test nes hardware behaviors, such as cpu 6502 instructions, 
